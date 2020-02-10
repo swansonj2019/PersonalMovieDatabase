@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a72426b6-0315-4ef9-8672-15bddfdafd82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignDocuments/Screens.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignDocuments/userStories.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectPlan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/TimeLog.md" afterDir="false" />
-    </list>
+    <list default="true" id="a72426b6-0315-4ef9-8672-15bddfdafd82" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +181,7 @@
       <workItem from="1580696301209" duration="4334000" />
       <workItem from="1580858438463" duration="11000" />
       <workItem from="1581272616755" duration="6056000" />
-      <workItem from="1581303671511" duration="1845000" />
+      <workItem from="1581303671511" duration="2131000" />
     </task>
     <servers />
   </component>
