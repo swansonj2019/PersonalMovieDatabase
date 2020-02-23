@@ -15,6 +15,7 @@ import java.util.Objects;
 @Entity(name = "Movie")
 @Table(name = "movie_db")
 public class Movie {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -25,7 +26,6 @@ public class Movie {
 
     @Column(name = "tmdb_id")
     private String tmdbId;
-
     @Column(name = "overview")
     private String overview;
 
