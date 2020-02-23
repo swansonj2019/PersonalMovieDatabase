@@ -1,0 +1,25 @@
+[INFO ] 2020-02-23 00:54:01.756 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[INFO ] 2020-02-23 00:54:01.757 [main] userDaoTest - Testing Logging!
+[INFO ] 2020-02-23 01:05:35.600 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[INFO ] 2020-02-23 01:06:52.767 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[INFO ] 2020-02-23 01:07:04.810 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:07:04.832 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:13:53.816 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:13:53.842 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:13:54.031 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[INFO ] 2020-02-23 01:14:04.638 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:14:04.654 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:14:04.891 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[DEBUG] 2020-02-23 01:24:24.454 [main] UserDao - Searching for user with username = Wade
+[DEBUG] 2020-02-23 01:24:47.115 [main] UserDao - Searching for user with username = Wade
+[INFO ] 2020-02-23 01:24:47.576 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:24:47.588 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:24:47.670 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[DEBUG] 2020-02-23 01:24:58.361 [main] UserDao - Searching for user with username = Wade
+[INFO ] 2020-02-23 01:24:58.920 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:24:58.936 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:24:59.014 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[DEBUG] 2020-02-23 01:28:41.378 [main] UserDao - Searching for user with username = Wade
+[INFO ] 2020-02-23 01:28:41.759 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:28:41.769 [main] userDaoTest - User{user_id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-02-23 01:28:41.866 [main] userDaoTest - [User{user_id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{user_id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{user_id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]

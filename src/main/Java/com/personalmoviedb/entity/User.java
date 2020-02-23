@@ -105,19 +105,5 @@ public class User {
                 ", password='" + password + '\'' +
                 '}';
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return user_id == user.user_id &&
-                username.equals(user.username) &&
-                password.equals(user.password);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(user_id, username, password);
-    }
 }
+

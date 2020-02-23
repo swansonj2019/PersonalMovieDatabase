@@ -7,13 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72426b6-0315-4ef9-8672-15bddfdafd82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/personalmoviedb/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/personalmoviedb/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/entity/userDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/entity/userDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cleandb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="199" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -116,7 +123,86 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.userDaoTest">
+    <configuration name="userDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PersonalMovieDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personalmoviedb.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.personalmoviedb.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.personalmoviedb.entity.userDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PersonalMovieDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personalmoviedb.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.personalmoviedb.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.personalmoviedb.entity.userDaoTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userDaoTest.getAllSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PersonalMovieDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personalmoviedb.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.personalmoviedb.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.personalmoviedb.entity.userDaoTest" />
+      <option name="METHOD_NAME" value="getAllSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userDaoTest.getUsersByPropertyEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PersonalMovieDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personalmoviedb.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.personalmoviedb.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.personalmoviedb.entity.userDaoTest" />
+      <option name="METHOD_NAME" value="getUsersByPropertyEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userDaoTest.saveOrUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PersonalMovieDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personalmoviedb.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.personalmoviedb.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.personalmoviedb.entity.userDaoTest" />
+      <option name="METHOD_NAME" value="saveOrUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/PersonalMovieDatabase_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -191,6 +277,15 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.userDaoTest" />
+        <item itemvalue="JUnit.userDaoTest.getUsersByPropertyEqual" />
+        <item itemvalue="JUnit.userDaoTest.delete" />
+        <item itemvalue="JUnit.userDaoTest.getAllSuccess" />
+        <item itemvalue="JUnit.userDaoTest.saveOrUpdate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -234,7 +329,8 @@
       <workItem from="1581448730595" duration="18000" />
       <workItem from="1581471789874" duration="419000" />
       <workItem from="1581788066226" duration="10000" />
-      <workItem from="1582432056305" duration="5063000" />
+      <workItem from="1582432056305" duration="5108000" />
+      <workItem from="1582439094160" duration="3795000" />
     </task>
     <servers />
   </component>
@@ -263,25 +359,25 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2387" y="365" width="544" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.3371.1261@67.27.3371.1261" timestamp="1582435290361" />
-    <state width="908" height="217" key="GridCell.Tab.0.bottom" timestamp="1581472208991">
+    <state width="1327" height="217" key="GridCell.Tab.0.bottom" timestamp="1582442894874">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="217" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1581472208991" />
+    <state width="1327" height="217" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1582442894874" />
     <state width="1140" height="342" key="GridCell.Tab.0.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676700" />
-    <state width="908" height="217" key="GridCell.Tab.0.center" timestamp="1581472208990">
+    <state width="1327" height="217" key="GridCell.Tab.0.center" timestamp="1582442894874">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="217" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1581472208990" />
+    <state width="1327" height="217" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1582442894874" />
     <state width="1140" height="342" key="GridCell.Tab.0.center/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676698" />
-    <state width="908" height="217" key="GridCell.Tab.0.left" timestamp="1581472208990">
+    <state width="1327" height="217" key="GridCell.Tab.0.left" timestamp="1582442894873">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="217" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1581472208990" />
+    <state width="1327" height="217" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1582442894873" />
     <state width="1140" height="342" key="GridCell.Tab.0.left/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676697" />
-    <state width="908" height="217" key="GridCell.Tab.0.right" timestamp="1581472208991">
+    <state width="1327" height="217" key="GridCell.Tab.0.right" timestamp="1582442894874">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="217" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1581472208991" />
+    <state width="1327" height="217" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1582442894874" />
     <state width="1140" height="342" key="GridCell.Tab.0.right/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676699" />
     <state width="908" height="217" key="GridCell.Tab.1.bottom" timestamp="1581472208992">
       <screen x="67" y="27" width="1373" height="873" />
@@ -327,5 +423,10 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2195" y="309" width="672" height="678" key="search.everywhere.popup/67.27.3371.1261@67.27.3371.1261" timestamp="1582432452128" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PersonalMovieDatabase$userDaoTest.ic" NAME="userDaoTest Coverage Results" MODIFIED="1582442693845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.personalmoviedb.entity.*</FILTER>
+    </SUITE>
   </component>
 </project>

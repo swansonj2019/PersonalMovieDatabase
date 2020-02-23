@@ -1,10 +1,16 @@
 package com.personalmoviedb.entity;
 
 import com.personalmoviedb.persistence.UserDao;
+import com.personalmoviedb.test.util.Database;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class userDaoTest {
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -13,50 +19,53 @@ public class userDaoTest {
     @BeforeEach
     void setUp() {
         dao = new UserDao();
-//        Database database = Database.getInstance();
-//        database.runSQL("cleandb.sql");
+        Database database = Database.getInstance();
+        database.runSQL("cleandb.sql");
     }
 
-//    @Test
-//    void getByIdSuccess() {
+    @Test
+    void getByIdSuccess() {
+        User returnedUser = dao.getById(1);
+        assertEquals("Nex", returnedUser.getUsername());
+        assertEquals("a94a8fe5ccb19ba61c4c0873d391e987982fbbd3", returnedUser.getPassword());
+    }
 
-//        Book returnedBook = dao.getById(2);
-//        assertEquals("Beginning Hibernate", returnedBook.getTitle());
-//        assertEquals("joseph ottinger", returnedBook.getAuthor());
-//        assertEquals("978-1-4842-2319-2", returnedBook.getIsbn());
-//        assertEquals(2016, returnedBook.getPublicationYear());
-//    }
-//
-//    @Test
-//    void getAllSuccess() {
-//        List<Book> books = dao.getAll();
-//        assertEquals(3, books.size());
-//    }
-//
-//    @Test
-//    void insert() {
-//        Book book = new Book("NewBook", "Joel Swanson", "325-4463-333-43", 2020);
-//        dao.insert(book);
-//        Book insertedBook = dao.getById(4);
-//        assertEquals("Joel Swanson", insertedBook.getAuthor());
-//        logger.info(book);
-//        logger.info(insertedBook);
-//    }
-//
-//    @Test
-//    void delete() {
-//        dao.delete(dao.getById(1));
-//        assertNull(dao.getById(1));
-//    }
-//
-//    @Test
-//    void saveOrUpdate() {
-//
-//        String newTitle = "Joel Sucks @ Hibernate";
-//        Book toBeUpdated = dao.getById(1);
-//        toBeUpdated.setTitle(newTitle);
-//        dao.saveOrUpdate(toBeUpdated);
-//        assertEquals(newTitle, toBeUpdated.getTitle());
-//
-//    }
+    @Test
+    void getAllSuccess() {
+        List<User> users = dao.getAllUsers();
+        assertEquals(4, users.size());
+        logger.info(users.toString());
+    }
+
+    @Test
+    void insert() {
+        User user = new User("NeoUser", "Crappy Password");
+        dao.insert(user);
+        User insertedUser = dao.getById(21);
+        assertEquals("NeoUser", insertedUser.getUsername());
+        logger.info(user);
+        logger.info(insertedUser);
+    }
+
+    @Test
+    void delete() {
+        dao.delete(dao.getById(1));
+        assertNull(dao.getById(1));
+    }
+
+    @Test
+    void saveOrUpdate() {
+        String newUsername = "Bobby McGee";
+        User toBeUpdated = dao.getById(1);
+        toBeUpdated.setUsername(newUsername);
+        dao.saveOrUpdate(toBeUpdated);
+        assertEquals(newUsername, toBeUpdated.getUsername());
+
+    }
+
+    @Test
+    void getUsersByPropertyEqual() {
+        List<User> users = dao.getByPropertyEqual("username", "Wade");
+        assertEquals(1, users.size());
+    }
 }
