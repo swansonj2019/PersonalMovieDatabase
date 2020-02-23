@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Properties;
 
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -29,7 +30,7 @@ class MovieTest {
         String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
         String movieSearchString = "Joker";
         URL tmdbBase = new URL("https://api.themoviedb.org/3/search/" +
-                "movie?api_key=d50c74af75d839557ecd94c9f6bda5c8&language=en-US" +
+                "movie?api_key=" + api_key +
                 "&query=" + movieSearchString + "&page=1&include_adult=false");
 
         URLConnection conn = tmdbBase.openConnection();
