@@ -1,12 +1,20 @@
-package com.personalmoviedb.entity;
+package com.personalmoviedb;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.uwetrottmann.tmdb2.Tmdb;
+import com.uwetrottmann.tmdb2.entities.AppendToResponse;
+import com.uwetrottmann.tmdb2.entities.Movie;
+import com.uwetrottmann.tmdb2.entities.Videos;
+import com.uwetrottmann.tmdb2.enumerations.AppendToResponseItem;
+import com.uwetrottmann.tmdb2.services.MoviesService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import retrofit2.Response;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,7 +36,7 @@ class MovieTest {
     @Test
     void testMovieLookup() throws IOException {
         String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
-        String movieSearchString = "Joker";
+        String movieSearchString = "Batman";
         URL tmdbBase = new URL("https://api.themoviedb.org/3/search/" +
                 "movie?api_key=" + api_key +
                 "&query=" + movieSearchString + "&page=1&include_adult=false");
@@ -51,5 +59,31 @@ class MovieTest {
             logger.info("Elements under results array: ");
             logger.info("Title: " + object.get("title"));
         }
+    }
+
+    @Test
+    void movieTest() {
+        String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
+        Tmdb tmdb = new Tmdb(api_key);
+        MoviesService moviesService = tmdb.moviesService();
+// Call any of the available endpoints
+        try {
+            Response<Movie> response = moviesService
+                    .summary(550, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
+                            , AppendToResponseItem.VIDEOS))
+                    .execute();
+            if (response.isSuccessful()) {
+                Movie movie = response.body();
+                logger.info(movie.title + ": " + movie.tagline);
+
+                for (Videos.Video video : movie.videos.results) {
+                    logger.info(video.name + " " + video.type +  " " + video.site);
+                }
+            }
+        } catch (Exception e) {
+            // see execute() javadoc
+        }
+
+
     }
 }
