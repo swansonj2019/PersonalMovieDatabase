@@ -6,9 +6,11 @@ import com.google.gson.JsonParser;
 import com.uwetrottmann.tmdb2.Tmdb;
 import com.uwetrottmann.tmdb2.entities.AppendToResponse;
 import com.uwetrottmann.tmdb2.entities.Movie;
+import com.uwetrottmann.tmdb2.entities.MovieResultsPage;
 import com.uwetrottmann.tmdb2.entities.Videos;
 import com.uwetrottmann.tmdb2.enumerations.AppendToResponseItem;
 import com.uwetrottmann.tmdb2.services.MoviesService;
+import com.uwetrottmann.tmdb2.services.SearchService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
@@ -63,13 +65,14 @@ class MovieTest {
 
     @Test
     void movieTest() {
+        String yt_url = "https://www.youtube.com/watch?v=";
         String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
         Tmdb tmdb = new Tmdb(api_key);
         MoviesService moviesService = tmdb.moviesService();
 // Call any of the available endpoints
         try {
             Response<Movie> response = moviesService
-                    .summary(550, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
+                    .summary(272, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
                             , AppendToResponseItem.VIDEOS))
                     .execute();
             if (response.isSuccessful()) {
@@ -78,6 +81,7 @@ class MovieTest {
 
                 for (Videos.Video video : movie.videos.results) {
                     logger.info(video.name + " " + video.type +  " " + video.site);
+                    logger.info( yt_url + video.key);
                 }
             }
         } catch (Exception e) {
@@ -86,4 +90,26 @@ class MovieTest {
 
 
     }
+
+    @Test
+    // Using Wrapper with Search
+    void movieSearchResults() {
+        String yt_url = "https://www.youtube.com/watch?v=";
+        String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
+        Tmdb tmdb = new Tmdb(api_key);
+        SearchService searchService = tmdb.searchService();
+
+        try {
+            Response<MovieResultsPage> response = searchService
+                    .movie("Batman", 1, "en-US", "EN", false, 1999, 1999)
+                    .execute();
+            if (response.isSuccessful()) {
+                MovieResultsPage results = response.body();
+                logger.info(results.toString());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
