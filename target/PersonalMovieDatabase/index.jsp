@@ -1,37 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-</head>
+<html>
 <body>
-
-<div class="container">
-    <br/>
-    <div>
-    <h1 class="text-centered">Welcome to the PmDB!</h1>
+<h2>User Display Exercise - Week 1</h2>
+<form action="searchUser" class="form-inline">
+    <div class="form-group">
+        <label for="searchTerm">Search</label>
+        <input type="text" class="form-control" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Username">
     </div>
-    <br/>
-    <div class="row">
-        <div class="col-sm-6">
-            <img src="images/sample_1.jpg" alt="Example Image">
-        </div>
-        <div class="col-sm-6">
-            <p>Testing Text Placement</p>
-        </div>
-    </div>
-</div>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
+    <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View all users</button>
+</form>
 </body>
 </html>

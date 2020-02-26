@@ -7,9 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72426b6-0315-4ef9-8672-15bddfdafd82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Java/com/personalmoviedb/controller/SearchUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/PersonalMovieDatabase.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/PersonalMovieDatabase.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/MovieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/personalmoviedb/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/personalmoviedb/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/entity/userDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/entity/userDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/PersonalMovieDatabase.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/project_4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/PersonalMovieDatabase.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/entity/userDaoTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +51,24 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySql" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="movie_db_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -43,6 +77,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -110,7 +145,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest.testMovieLookup">
+  <component name="RunManager" selected="TomEE Server.Tomcat">
     <configuration name="MovieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PersonalMovieDatabase" />
       <extension name="coverage">
@@ -190,7 +225,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/PersonalMovieDatabase_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="PersonalMovieDatabase:war">
@@ -263,6 +297,14 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MovieTest" />
+      <item itemvalue="JUnit.MovieTest.movieSearchResults" />
+      <item itemvalue="JUnit.MovieTest.movieTest" />
+      <item itemvalue="JUnit.MovieTest.testMovieLookup" />
+      <item itemvalue="JUnit.userDaoTest" />
+      <item itemvalue="TomEE Server.Tomcat" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MovieTest.testMovieLookup" />
@@ -285,7 +327,17 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@71a53830" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -321,6 +373,8 @@
       <workItem from="1582479048895" duration="11527000" />
       <workItem from="1582587239200" duration="4642000" />
       <workItem from="1582687203973" duration="3923000" />
+      <workItem from="1582696506376" duration="81000" />
+      <workItem from="1582696612131" duration="2191000" />
     </task>
     <servers />
   </component>
@@ -340,11 +394,11 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2125" y="315" width="800" height="677" key="#SQL_Dialects/67.27.3371.1261@67.27.3371.1261" timestamp="1582437004046" />
-    <state x="396" y="179" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582432918978">
+    <state x="1856" y="89" width="906" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582696933131">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="201" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1373.873@67.27.1373.873" timestamp="1580259343707" />
-    <state x="396" y="179" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1582432918978" />
+    <state x="1856" y="89" width="906" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1582696933131" />
     <state x="2387" y="365" width="544" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582486721668">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
@@ -353,66 +407,66 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="506" y="324" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1373.873@67.27.1373.873" timestamp="1582588798522" />
-    <state width="1761" height="249" key="GridCell.Tab.0.bottom" timestamp="1582691362139">
+    <state width="1212" height="166" key="GridCell.Tab.0.bottom" timestamp="1582698826645">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="155" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1582591314958" />
-    <state width="1761" height="249" key="GridCell.Tab.0.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1582691362139" />
-    <state width="1761" height="249" key="GridCell.Tab.0.center" timestamp="1582691362130">
+    <state width="1212" height="166" key="GridCell.Tab.0.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826645" />
+    <state width="1212" height="166" key="GridCell.Tab.0.center" timestamp="1582698826642">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="155" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1582591314957" />
-    <state width="1761" height="249" key="GridCell.Tab.0.center/67.27.3371.1261@67.27.3371.1261" timestamp="1582691362130" />
-    <state width="1761" height="249" key="GridCell.Tab.0.left" timestamp="1582691362130">
+    <state width="1212" height="166" key="GridCell.Tab.0.center/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826642" />
+    <state width="1212" height="166" key="GridCell.Tab.0.left" timestamp="1582698826641">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="155" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1582591314957" />
-    <state width="1761" height="249" key="GridCell.Tab.0.left/67.27.3371.1261@67.27.3371.1261" timestamp="1582691362130" />
-    <state width="1761" height="249" key="GridCell.Tab.0.right" timestamp="1582691362135">
+    <state width="1212" height="166" key="GridCell.Tab.0.left/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826641" />
+    <state width="1212" height="166" key="GridCell.Tab.0.right" timestamp="1582698826644">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="155" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1582591314958" />
-    <state width="1761" height="249" key="GridCell.Tab.0.right/67.27.3371.1261@67.27.3371.1261" timestamp="1582691362135" />
-    <state width="908" height="217" key="GridCell.Tab.1.bottom" timestamp="1581472208992">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.0.right/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826644" />
+    <state width="1212" height="166" key="GridCell.Tab.1.bottom" timestamp="1582698826649">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.1.bottom/67.27.1373.873@67.27.1373.873" timestamp="1581472208992" />
-    <state width="1140" height="342" key="GridCell.Tab.1.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676702" />
-    <state width="908" height="217" key="GridCell.Tab.1.center" timestamp="1581472208991">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.1.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826649" />
+    <state width="1212" height="166" key="GridCell.Tab.1.center" timestamp="1582698826646">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.1.center/67.27.1373.873@67.27.1373.873" timestamp="1581472208991" />
-    <state width="1140" height="342" key="GridCell.Tab.1.center/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676701" />
-    <state width="908" height="217" key="GridCell.Tab.1.left" timestamp="1581472208991">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.1.center/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826646" />
+    <state width="1212" height="166" key="GridCell.Tab.1.left" timestamp="1582698826645">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.1.left/67.27.1373.873@67.27.1373.873" timestamp="1581472208991" />
-    <state width="1140" height="342" key="GridCell.Tab.1.left/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676700" />
-    <state width="908" height="217" key="GridCell.Tab.1.right" timestamp="1581472208992">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.1.left/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826645" />
+    <state width="1212" height="166" key="GridCell.Tab.1.right" timestamp="1582698826646">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.1.right/67.27.1373.873@67.27.1373.873" timestamp="1581472208992" />
-    <state width="1140" height="342" key="GridCell.Tab.1.right/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676702" />
-    <state width="908" height="217" key="GridCell.Tab.2.bottom" timestamp="1581472208993">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.1.right/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826646" />
+    <state width="1212" height="166" key="GridCell.Tab.2.bottom" timestamp="1582698826652">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.2.bottom/67.27.1373.873@67.27.1373.873" timestamp="1581472208993" />
-    <state width="1140" height="342" key="GridCell.Tab.2.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676705" />
-    <state width="908" height="217" key="GridCell.Tab.2.center" timestamp="1581472208992">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.2.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826652" />
+    <state width="1212" height="166" key="GridCell.Tab.2.center" timestamp="1582698826650">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.2.center/67.27.1373.873@67.27.1373.873" timestamp="1581472208992" />
-    <state width="1140" height="342" key="GridCell.Tab.2.center/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676704" />
-    <state width="908" height="217" key="GridCell.Tab.2.left" timestamp="1581472208992">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.2.center/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826650" />
+    <state width="1212" height="166" key="GridCell.Tab.2.left" timestamp="1582698826649">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.2.left/67.27.1373.873@67.27.1373.873" timestamp="1581472208992" />
-    <state width="1140" height="342" key="GridCell.Tab.2.left/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676702" />
-    <state width="908" height="217" key="GridCell.Tab.2.right" timestamp="1581472208993">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state width="1212" height="166" key="GridCell.Tab.2.left/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826649" />
+    <state width="1212" height="166" key="GridCell.Tab.2.right" timestamp="1582698826651">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="217" key="GridCell.Tab.2.right/67.27.1373.873@67.27.1373.873" timestamp="1581472208993" />
-    <state width="1140" height="342" key="GridCell.Tab.2.right/67.27.3371.1261@67.27.3371.1261" timestamp="1581278676704" />
+    <state width="1212" height="166" key="GridCell.Tab.2.right/67.27.3371.1261@67.27.3371.1261" timestamp="1582698826651" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1582477390908">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
@@ -425,10 +479,10 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2266" y="374" width="517" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1582484647454" />
-    <state x="2195" y="309" width="672" height="678" key="search.everywhere.popup" timestamp="1582478970705">
+    <state x="2195" y="309" width="672" height="678" key="search.everywhere.popup" timestamp="1582697801447">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
-    <state x="2195" y="309" width="672" height="678" key="search.everywhere.popup/67.27.3371.1261@67.27.3371.1261" timestamp="1582478970705" />
+    <state x="2195" y="309" width="672" height="678" key="search.everywhere.popup/67.27.3371.1261@67.27.3371.1261" timestamp="1582697801447" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PersonalMovieDatabase$userDaoTest.ic" NAME="userDaoTest Coverage Results" MODIFIED="1582442693845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

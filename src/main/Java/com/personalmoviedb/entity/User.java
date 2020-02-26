@@ -18,10 +18,10 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     @Column(name = "user_id")
-    private int user_id;
+    private int id;
 
     @Column(name = "username")
-    private String username;
+    private String userName;
 
     @Column(name = "password")
     private String password;
@@ -35,11 +35,11 @@ public class User {
     /**
      * Instantiates a new User.
      *
-     * @param username the username
+     * @param userName the username
      * @param password the password
      */
-    public User(String username, String password) {
-        this.username = username;
+    public User(String userName, String password) {
+        this.userName = userName;
         this.password = password;
     }
 
@@ -48,17 +48,17 @@ public class User {
      *
      * @return the user id
      */
-    public int getUser_id() {
-        return user_id;
+    public int getId() {
+        return id;
     }
 
     /**
      * Sets user id.
      *
-     * @param user_id the user id
+     * @param id the user id
      */
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     /**
@@ -66,17 +66,17 @@ public class User {
      *
      * @return the username
      */
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
     /**
      * Sets username.
      *
-     * @param username the username
+     * @param userName the username
      */
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUsername(String userName) {
+        this.userName = userName;
     }
 
     /**
@@ -100,8 +100,8 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "user_id=" + user_id +
-                ", username='" + username + '\'' +
+                "id=" + id +
+                ", username='" + userName + '\'' +
                 ", password='" + password + '\'' +
                 '}';
     }
