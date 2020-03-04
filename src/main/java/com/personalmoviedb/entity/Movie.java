@@ -19,7 +19,7 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    @OneToMany(cascade = CascadeType.ALL)
+    @Column(name = "user_id")
     private int id;
 
     @Column(name = "title")
@@ -39,8 +39,8 @@ public class Movie {
     @Column(name = "yt_search_string")
     private String ytSearchString;
 
-    @Column(name = "entered_by_user")
-    private User enteredByUser;
+    @Column(name = "username")
+    private String username;
 
     @Column(name = "user_rating")
     private String userRating;
@@ -66,13 +66,13 @@ public class Movie {
      * @param releaseDate    the release date
      * @param posterFile     the poster file
      * @param ytSearchString the yt search string
-     * @param enteredByUser  the entered by user
+     * @param username       the username
      * @param userRating     the user rating
      * @param personalReview the personal review
      * @param enteredDate    the entered date
      */
     public Movie(String title, String tmdbId, String overview, Date releaseDate,
-                 String posterFile, String ytSearchString, User enteredByUser,
+                 String posterFile, String ytSearchString, String username,
                  String userRating, String personalReview, Date enteredDate) {
         this.title = title;
         this.tmdbId = tmdbId;
@@ -80,7 +80,7 @@ public class Movie {
         this.releaseDate = releaseDate;
         this.posterFile = posterFile;
         this.ytSearchString = ytSearchString;
-        this.enteredByUser = enteredByUser;
+        this.username = username;
         this.userRating = userRating;
         this.personalReview = personalReview;
         this.enteredDate = enteredDate;
@@ -217,17 +217,17 @@ public class Movie {
      *
      * @return the entered by user
      */
-    public User getEnteredByUser() {
-        return enteredByUser;
+    public String getUsername() {
+        return username;
     }
 
     /**
      * Sets entered by user.
      *
-     * @param enteredByUser the entered by user
+     * @param username the username
      */
-    public void setEnteredByUser(User enteredByUser) {
-        this.enteredByUser = enteredByUser;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     /**
@@ -294,7 +294,7 @@ public class Movie {
                 ", releaseDate=" + releaseDate +
                 ", posterFile='" + posterFile + '\'' +
                 ", ytSearchString='" + ytSearchString + '\'' +
-                ", enteredByUser=" + enteredByUser +
+                ", username=" + username +
                 ", userRating='" + userRating + '\'' +
                 ", personalReview='" + personalReview + '\'' +
                 ", enteredDate=" + enteredDate +
@@ -313,7 +313,7 @@ public class Movie {
                 releaseDate.equals(movie.releaseDate) &&
                 posterFile.equals(movie.posterFile) &&
                 ytSearchString.equals(movie.ytSearchString) &&
-                enteredByUser.equals(movie.enteredByUser) &&
+                username.equals(movie.username) &&
                 userRating.equals(movie.userRating) &&
                 personalReview.equals(movie.personalReview) &&
                 enteredDate.equals(movie.enteredDate);
@@ -321,6 +321,6 @@ public class Movie {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, tmdbId, overview, releaseDate, posterFile, ytSearchString, enteredByUser, userRating, personalReview, enteredDate);
+        return Objects.hash(id, title, tmdbId, overview, releaseDate, posterFile, ytSearchString, username, userRating, personalReview, enteredDate);
     }
 }

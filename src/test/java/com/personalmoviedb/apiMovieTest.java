@@ -27,7 +27,7 @@ import java.util.Properties;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MovieTest {
+class apiMovieTest {
     private final Logger logger = LogManager.getLogger(this.getClass());
     @BeforeEach
     void setUp() {
@@ -72,7 +72,7 @@ class MovieTest {
 // Call any of the available endpoints
         try {
             Response<Movie> response = moviesService
-                    .summary(475557, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
+                    .summary(272, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
                             , AppendToResponseItem.VIDEOS))
                     .execute();
             if (response.isSuccessful()) {

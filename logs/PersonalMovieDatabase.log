@@ -1091,3 +1091,13 @@
 [INFO ] 2020-03-03 22:56:36.664 [main] MovieTest - https://www.youtube.com/watch?v=4Wau3qa9PAk
 [INFO ] 2020-03-03 22:56:36.665 [main] MovieTest - For my whole life, I didn't know if I even really existed - Joker 2019 Clip YouTube
 [INFO ] 2020-03-03 22:56:36.667 [main] MovieTest - https://www.youtube.com/watch?v=uSnrrnXBG4k
+[INFO ] 2020-03-03 23:05:01.611 [main] apiMovieTest - Batman Begins: Evil fears the knight.
+[INFO ] 2020-03-03 23:05:01.630 [main] apiMovieTest - Batman Begins - Original Theatrical Trailer Trailer YouTube
+[INFO ] 2020-03-03 23:05:01.631 [main] apiMovieTest - https://www.youtube.com/watch?v=bkU7Cl2SSvI
+[INFO ] 2020-03-03 23:05:01.631 [main] apiMovieTest - Batman Begins (2005) Official Trailer #1 - Christopher Nolan Movie Trailer YouTube
+[INFO ] 2020-03-03 23:05:01.631 [main] apiMovieTest - https://www.youtube.com/watch?v=neY2xVmOfUM
+[DEBUG] 2020-03-03 23:06:05.529 [main] UserDao - Searching for user with userName = Wade
+[INFO ] 2020-03-03 23:06:06.197 [main] userDaoTest - User{id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-03-03 23:06:06.215 [main] userDaoTest - User{id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-03-03 23:06:06.315 [main] userDaoTest - [User{id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[INFO ] 2020-03-03 23:29:54.891 [main] MovieDaoTest - [Movie{id=1, title='Star Wars: The Last Jedi', tmdbId='181808', overview='Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.', releaseDate=2017-12-13 00:00:00.0, posterFile='Star Wars: The Last Jedi.jpg', ytSearchString='null', username=TestBro, userRating='3', personalReview='test', enteredDate=2018-04-26 02:26:11.0}]
