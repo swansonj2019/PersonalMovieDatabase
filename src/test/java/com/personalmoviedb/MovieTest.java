@@ -72,7 +72,7 @@ class MovieTest {
 // Call any of the available endpoints
         try {
             Response<Movie> response = moviesService
-                    .summary(272, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
+                    .summary(475557, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
                             , AppendToResponseItem.VIDEOS))
                     .execute();
             if (response.isSuccessful()) {

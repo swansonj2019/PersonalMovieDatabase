@@ -1069,3 +1069,25 @@
 [INFO ] 2020-03-03 19:20:23.875 [main] userDaoTest - User{id=21, username='NeoUser', password='Crappy Password'}
 [INFO ] 2020-03-03 19:20:23.917 [main] userDaoTest - User{id=21, username='NeoUser', password='Crappy Password'}
 [INFO ] 2020-03-03 19:20:24.051 [main] userDaoTest - [User{id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[DEBUG] 2020-03-03 22:52:33.411 [main] UserDao - Searching for user with userName = Wade
+[INFO ] 2020-03-03 22:52:34.039 [main] userDaoTest - User{id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-03-03 22:52:34.050 [main] userDaoTest - User{id=21, username='NeoUser', password='Crappy Password'}
+[INFO ] 2020-03-03 22:52:34.154 [main] userDaoTest - [User{id=1, username='Nex', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{id=2, username='Wade', password='9c65cc08326b74dbf20729a3c4d152de20f1c52a'}, User{id=3, username='TestBro', password='a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'}, User{id=4, username='Pippin', password='e49512524f47b4138d850c9d9d85972927281da0'}]
+[INFO ] 2020-03-03 22:54:57.406 [main] MovieTest - Batman Begins: Evil fears the knight.
+[INFO ] 2020-03-03 22:54:57.422 [main] MovieTest - Batman Begins - Original Theatrical Trailer Trailer YouTube
+[INFO ] 2020-03-03 22:54:57.422 [main] MovieTest - https://www.youtube.com/watch?v=bkU7Cl2SSvI
+[INFO ] 2020-03-03 22:54:57.423 [main] MovieTest - Batman Begins (2005) Official Trailer #1 - Christopher Nolan Movie Trailer YouTube
+[INFO ] 2020-03-03 22:54:57.423 [main] MovieTest - https://www.youtube.com/watch?v=neY2xVmOfUM
+[INFO ] 2020-03-03 22:56:36.635 [main] MovieTest - Joker: Put on a happy face.
+[INFO ] 2020-03-03 22:56:36.660 [main] MovieTest - JOKER - Teaser Trailer Trailer YouTube
+[INFO ] 2020-03-03 22:56:36.660 [main] MovieTest - https://www.youtube.com/watch?v=t433PEQGErc
+[INFO ] 2020-03-03 22:56:36.661 [main] MovieTest - JOKER – Final Trailer – Warner Bros. Trailer YouTube
+[INFO ] 2020-03-03 22:56:36.661 [main] MovieTest - https://www.youtube.com/watch?v=xRjvmVaFHkk
+[INFO ] 2020-03-03 22:56:36.661 [main] MovieTest - Playing the mad clown | The Straits Times Featurette YouTube
+[INFO ] 2020-03-03 22:56:36.663 [main] MovieTest - https://www.youtube.com/watch?v=jk41yJH3pyQ
+[INFO ] 2020-03-03 22:56:36.663 [main] MovieTest - JOKER Featurette "Bringing The Character to Life" (2019) Featurette YouTube
+[INFO ] 2020-03-03 22:56:36.664 [main] MovieTest - https://www.youtube.com/watch?v=puva03k1yU0
+[INFO ] 2020-03-03 22:56:36.664 [main] MovieTest - I used to think that my life was a tragedy, but now I realize that its a fucking comedy - Joker 2019 Clip YouTube
+[INFO ] 2020-03-03 22:56:36.664 [main] MovieTest - https://www.youtube.com/watch?v=4Wau3qa9PAk
+[INFO ] 2020-03-03 22:56:36.665 [main] MovieTest - For my whole life, I didn't know if I even really existed - Joker 2019 Clip YouTube
+[INFO ] 2020-03-03 22:56:36.667 [main] MovieTest - https://www.youtube.com/watch?v=uSnrrnXBG4k
