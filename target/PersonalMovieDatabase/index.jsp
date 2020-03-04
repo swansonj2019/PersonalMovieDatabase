@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>User Display Exercise - Week 1</h2>
+<h2>Search All or Search by Username</h2>
 <form action="searchUser" class="form-inline">
     <div class="form-group">
         <label for="searchTerm">Search</label>

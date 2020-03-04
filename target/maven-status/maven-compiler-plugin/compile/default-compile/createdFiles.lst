@@ -1,0 +1,5 @@
+com/personalmoviedb/persistence/UserDao.class
+com/personalmoviedb/entity/User.class
+com/personalmoviedb/persistence/SessionFactoryProvider.class
+com/personalmoviedb/controller/SearchUsers.class
+com/personalmoviedb/entity/Movie.class

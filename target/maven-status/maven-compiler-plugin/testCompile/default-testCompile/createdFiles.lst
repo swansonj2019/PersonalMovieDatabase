@@ -1,2 +1,3 @@
-com/personalmoviedb/test/util/Database.class
+com/personalmoviedb/util/Database.class
 com/personalmoviedb/MovieTest.class
+com/personalmoviedb/entity/userDaoTest.class
