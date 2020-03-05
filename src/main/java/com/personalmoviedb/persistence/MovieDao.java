@@ -68,91 +68,91 @@ public class MovieDao {
         return movie;
     }
 
-//    /**
-//     * update user
-//     * @param user  User to be inserted or updated
-//     */
-//    public void saveOrUpdate(User user) {
-//        Session session = sessionFactory.openSession();
-//        Transaction transaction = session.beginTransaction();
-//        session.saveOrUpdate(user);
-//        transaction.commit();
-//        session.close();
-//    }
-//
-//    /**
-//     * update user
-//     * @param user  User to be inserted or updated
-//     * @return id of the inserted user
-//     */
-//    public int insert(User user) {
-//        int id = 0;
-//        Session session = sessionFactory.openSession();
-//        Transaction transaction = session.beginTransaction();
-//        id = (int)session.save(user);
-//        transaction.commit();
-//        session.close();
-//        return id;
-//    }
-//
-//    /**
-//     * Delete a user
-//     * @param user User to be deleted
-//     */
-//    public void delete(User user) {
-//        Session session = sessionFactory.openSession();
-//        Transaction transaction = session.beginTransaction();
-//        session.delete(user);
-//        transaction.commit();
-//        session.close();
-//    }
-//
-//
-//    /**
-//     * Get user by property (exact match)
-//     * sample usage: getByPropertyEqual("lastName", "Curry")
-//     *
-//     * @param propertyName entity property to search by
-//     * @param value value of the property to search for
-//     * @return list of users meeting the criteria search
-//     */
-//    public List<User> getByPropertyEqual(String propertyName, String value) {
-//        Session session = sessionFactory.openSession();
-//
-//        logger.debug("Searching for user with " + propertyName + " = " + value);
-//
-//        CriteriaBuilder builder = session.getCriteriaBuilder();
-//        CriteriaQuery<User> query = builder.createQuery( User.class );
-//        Root<User> root = query.from( User.class );
-//        query.select(root).where(builder.equal(root.get(propertyName), value));
-//        List<User> users = session.createQuery( query ).getResultList();
-//
-//        session.close();
-//        return users;
-//    }
-//
-//    /**
-//     * Get user by property (like)
-//     * sample usage: getByPropertyLike("lastName", "C")
-//     *
-//     * @param propertyName entity property to search by
-//     * @param value value of the property to search for
-//     * @return list of users meeting the criteria search
-//     */
-//    public List<User> getByPropertyLike(String propertyName, String value) {
-//        Session session = sessionFactory.openSession();
-//
-//        logger.debug("Searching for user with {} = {}",  propertyName, value);
-//
-//        CriteriaBuilder builder = session.getCriteriaBuilder();
-//        CriteriaQuery<User> query = builder.createQuery( User.class );
-//        Root<User> root = query.from( User.class );
-//        Expression<String> propertyPath = root.get(propertyName);
-//
-//        query.where(builder.like(propertyPath, "%" + value + "%"));
-//
-//        List<User> users = session.createQuery( query ).getResultList();
-//        session.close();
-//        return users;
-//    }
+    /**
+     * update movie
+     * @param movie Movie to be inserted or updated
+     */
+    public void saveOrUpdate(Movie movie) {
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        session.saveOrUpdate(movie);
+        transaction.commit();
+        session.close();
+    }
+
+    /**
+     * insert movie
+     * @param movie Movie to be inserted or updated
+     * @return id of the inserted movie
+     */
+    public int insert(Movie movie) {
+        int id = 0;
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        id = (int)session.save(movie);
+        transaction.commit();
+        session.close();
+        return id;
+    }
+
+    /**
+     * Delete a movie
+     * @param movie Movie to be deleted
+     */
+    public void delete(Movie movie) {
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        session.delete(movie);
+        transaction.commit();
+        session.close();
+    }
+
+
+    /**
+     * Get movie by property (exact match)
+     * sample usage: getByPropertyEqual("title", "Star Wars")
+     *
+     * @param propertyName entity property to search by
+     * @param value value of the property to search for
+     * @return list of movies meeting the criteria search
+     */
+    public List<Movie> getByPropertyEqual(String propertyName, String value) {
+        Session session = sessionFactory.openSession();
+
+        logger.debug("Searching for movie with " + propertyName + " = " + value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Movie> query = builder.createQuery( Movie.class );
+        Root<Movie> root = query.from( Movie.class );
+        query.select(root).where(builder.equal(root.get(propertyName), value));
+        List<Movie> movies = session.createQuery( query ).getResultList();
+
+        session.close();
+        return movies;
+    }
+
+    /**
+     * Get movies by property (like)
+     * sample usage: getByPropertyLike("lastName", "C")
+     *
+     * @param propertyName entity property to search by
+     * @param value value of the property to search for
+     * @return list of movies meeting the criteria search
+     */
+    public List<Movie> getByPropertyLike(String propertyName, String value) {
+        Session session = sessionFactory.openSession();
+
+        logger.debug("Searching for movie with {} = {}",  propertyName, value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Movie> query = builder.createQuery( Movie.class );
+        Root<Movie> root = query.from( Movie.class );
+        Expression<String> propertyPath = root.get(propertyName);
+
+        query.where(builder.like(propertyPath, "%" + value + "%"));
+
+        List<Movie> movies = session.createQuery( query ).getResultList();
+        session.close();
+        return movies;
+    }
 }

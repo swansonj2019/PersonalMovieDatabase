@@ -4,6 +4,7 @@ import jdk.jfr.Enabled;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Objects;
 
@@ -31,7 +32,7 @@ public class Movie {
     private String overview;
 
     @Column(name = "release_date")
-    private Date releaseDate;
+    private String releaseDate;
 
     @Column(name = "poster_file")
     private String posterFile;
@@ -49,7 +50,7 @@ public class Movie {
     private String personalReview;
 
     @Column(name = "entered_date")
-    private Date enteredDate;
+    private LocalDateTime enteredDate;
 
     /**
      * Instantiates a new Movie.
@@ -71,9 +72,9 @@ public class Movie {
      * @param personalReview the personal review
      * @param enteredDate    the entered date
      */
-    public Movie(String title, String tmdbId, String overview, Date releaseDate,
+    public Movie(String title, String tmdbId, String overview, String releaseDate,
                  String posterFile, String ytSearchString, String username,
-                 String userRating, String personalReview, Date enteredDate) {
+                 String userRating, String personalReview, LocalDateTime enteredDate) {
         this.title = title;
         this.tmdbId = tmdbId;
         this.overview = overview;
@@ -163,7 +164,7 @@ public class Movie {
      *
      * @return the release date
      */
-    public Date getReleaseDate() {
+    public String getReleaseDate() {
         return releaseDate;
     }
 
@@ -172,7 +173,7 @@ public class Movie {
      *
      * @param releaseDate the release date
      */
-    public void setReleaseDate(Date releaseDate) {
+    public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
     }
 
@@ -271,7 +272,7 @@ public class Movie {
      *
      * @return the entered date
      */
-    public Date getEnteredDate() {
+    public LocalDateTime getEnteredDate() {
         return enteredDate;
     }
 
@@ -280,7 +281,7 @@ public class Movie {
      *
      * @param enteredDate the entered date
      */
-    public void setEnteredDate(Date enteredDate) {
+    public void setEnteredDate(LocalDateTime enteredDate) {
         this.enteredDate = enteredDate;
     }
 
