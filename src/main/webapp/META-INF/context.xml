@@ -1,0 +1,8 @@
+<Context docBase="PersonalMovieDatabase" path="/PersonalMovieDatabase" reloadable="true">
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           driverName="com.mysql.cj.jdbc.Driver"
+           connectionURL="jdbc:mysql://localhost:3306/movie_db?user=tomcat&amp;password=tomcat"
+           userTable="movie_db_user" userNameCol="username" userCredCol="password"
+           userRoleTable="user_roles" roleNameCol="role_name" >
+    </Realm>
+</Context>

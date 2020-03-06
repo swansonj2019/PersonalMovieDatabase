@@ -1,13 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: student
+  Date: 3/5/20
+  Time: 5:51 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>Happy Landings</title>
+</head>
 <body>
-<h2>Search All or Search by Username</h2>
-<form action="searchUser" class="form-inline">
-    <div class="form-group">
-        <label for="searchTerm">Search</label>
-        <input type="text" class="form-control" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Username">
-    </div>
-    <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
-    <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View all users</button>
-</form>
+<h2>Welcome to the Landing Page</h2>
+<a href="search.jsp">Click here to access search functions! (admin Only)</a>
 </body>
 </html>
