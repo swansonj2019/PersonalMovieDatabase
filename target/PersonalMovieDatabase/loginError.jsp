@@ -11,6 +11,6 @@
     <title>Error</title>
 </head>
 <body>
-<h2>Login Failed! - Please try again</h2>git
+<h2>Login Failed! - Please try again</h2>
 </body>
 </html>

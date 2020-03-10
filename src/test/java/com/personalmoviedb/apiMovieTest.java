@@ -4,10 +4,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.uwetrottmann.tmdb2.Tmdb;
-import com.uwetrottmann.tmdb2.entities.AppendToResponse;
-import com.uwetrottmann.tmdb2.entities.Movie;
-import com.uwetrottmann.tmdb2.entities.MovieResultsPage;
-import com.uwetrottmann.tmdb2.entities.Videos;
+import com.uwetrottmann.tmdb2.entities.*;
 import com.uwetrottmann.tmdb2.enumerations.AppendToResponseItem;
 import com.uwetrottmann.tmdb2.services.MoviesService;
 import com.uwetrottmann.tmdb2.services.SearchService;
@@ -38,6 +35,8 @@ class apiMovieTest {
     @Test
     void testMovieLookup() throws IOException {
         String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
+        String poster_prefix = "https://image.tmdb.org/t/p/w370_and_h556_bestv2///";
+        String poster_path = "";
         String movieSearchString = "Batman";
         URL tmdbBase = new URL("https://api.themoviedb.org/3/search/" +
                 "movie?api_key=" + api_key +
@@ -60,6 +59,7 @@ class apiMovieTest {
             JsonObject object = (JsonObject) jsArray.get(i);
             logger.info("Elements under results array: ");
             logger.info("Title: " + object.get("title"));
+            logger.info("Poster Path: " +  poster_prefix + object.get("poster_path"));
         }
     }
 
@@ -69,15 +69,16 @@ class apiMovieTest {
         String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
         Tmdb tmdb = new Tmdb(api_key);
         MoviesService moviesService = tmdb.moviesService();
-// Call any of the available endpoints
+        // Call any of the available endpoints
         try {
             Response<Movie> response = moviesService
-                    .summary(272, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
+                    .summary(475557, "en-US", new AppendToResponse(AppendToResponseItem.IMAGES
                             , AppendToResponseItem.VIDEOS))
                     .execute();
             if (response.isSuccessful()) {
                 Movie movie = response.body();
-                logger.info(movie.title + ": " + movie.tagline);
+                logger.info("ID: " + movie.id + " " + movie.title + ": " + movie.tagline +
+                        " Released on: " + movie.release_date);
 
                 for (Videos.Video video : movie.videos.results) {
                     logger.info(video.name + " " + video.type +  " " + video.site);
@@ -95,17 +96,22 @@ class apiMovieTest {
     // Using Wrapper with Search
     void movieSearchResults() {
         String yt_url = "https://www.youtube.com/watch?v=";
+        String poster_prefix = "https://image.tmdb.org/t/p/w370_and_h556_bestv2///";
         String api_key = "d50c74af75d839557ecd94c9f6bda5c8";
+        String posterTest = "";
         Tmdb tmdb = new Tmdb(api_key);
         SearchService searchService = tmdb.searchService();
 
         try {
             Response<MovieResultsPage> response = searchService
-                    .movie("Batman", 1, "en-US", "EN", false, 1999, 1999)
+                    .movie("Joker", 1, "en-US", null, false, null, null)
                     .execute();
             if (response.isSuccessful()) {
                 MovieResultsPage results = response.body();
-                logger.info(results.toString());
+                for (BaseMovie result : results.results) {
+                    logger.info("ID: " + result.id +  " Title: " + result.title + " Poster: " + poster_prefix + result.poster_path);
+                    logger.info("Backdrop Test: "+ poster_prefix + result.backdrop_path);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
