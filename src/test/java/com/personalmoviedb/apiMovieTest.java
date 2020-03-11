@@ -1,8 +1,10 @@
 package com.personalmoviedb;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.personalmoviedb.entity.MovieDetails;
 import com.uwetrottmann.tmdb2.Tmdb;
 import com.uwetrottmann.tmdb2.entities.*;
 import com.uwetrottmann.tmdb2.enumerations.AppendToResponseItem;
@@ -14,6 +16,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import retrofit2.Response;
 
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -108,14 +114,27 @@ class apiMovieTest {
                     .execute();
             if (response.isSuccessful()) {
                 MovieResultsPage results = response.body();
+                logger.info(response.body());
                 for (BaseMovie result : results.results) {
-                    logger.info("ID: " + result.id +  " Title: " + result.title + " Poster: " + poster_prefix + result.poster_path);
-                    logger.info("Backdrop Test: "+ poster_prefix + result.backdrop_path);
+                    //logger.info("ID: " + result.id +  " Title: " + result.title + " Poster: " + poster_prefix + result.poster_path);
+                    //logger.info("Backdrop Test: "+ poster_prefix + result.backdrop_path);
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void testServiceClient() throws Exception{
+        Client client = ClientBuilder.newClient();
+        WebTarget target =
+                client.target("https://api.themoviedb.org/3/movie/475557?api_key=d50c74af75d839557ecd94c9f6bda5c8&language=en-US");
+        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+        ObjectMapper mapper = new ObjectMapper();
+        MovieDetails details = mapper.readValue(response, MovieDetails.class);
+        assertEquals("Joker", details.getTitle());
+        //assertEquals("???", response);
     }
 
 }
