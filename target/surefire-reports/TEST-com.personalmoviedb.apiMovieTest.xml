@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.personalmoviedb.apiMovieTest" time="3.602" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.personalmoviedb.apiMovieTest" time="1.91" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
@@ -61,7 +61,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testMovieLookup" classname="com.personalmoviedb.apiMovieTest" time="2.608"/>
-  <testcase name="movieTest" classname="com.personalmoviedb.apiMovieTest" time="0.353"/>
-  <testcase name="movieSearchResults" classname="com.personalmoviedb.apiMovieTest" time="0.279"/>
+  <testcase name="testMovieLookup" classname="com.personalmoviedb.apiMovieTest" time="0.589"/>
+  <testcase name="testServiceClient" classname="com.personalmoviedb.apiMovieTest" time="0.252"/>
+  <testcase name="movieTest" classname="com.personalmoviedb.apiMovieTest" time="0.599"/>
+  <testcase name="movieSearchResults" classname="com.personalmoviedb.apiMovieTest" time="0.465"/>
 </testsuite>

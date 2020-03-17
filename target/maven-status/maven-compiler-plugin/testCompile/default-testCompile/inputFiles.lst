@@ -2,3 +2,4 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/test/java/com/personalmoviedb/entity/userDaoTest.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/test/java/com/personalmoviedb/apiMovieTest.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/test/java/com/personalmoviedb/entity/MovieDaoTest.java
+/home/student/IdeaProjects/PersonalMovieDatabase/src/test/java/com/personalmoviedb/persistence/MovieDetailsDaoTest.java

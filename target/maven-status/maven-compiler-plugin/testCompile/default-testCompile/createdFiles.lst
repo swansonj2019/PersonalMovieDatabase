@@ -1,4 +1,5 @@
+com/personalmoviedb/util/Database.class
+com/personalmoviedb/persistence/MovieDetailsDaoTest.class
 com/personalmoviedb/apiMovieTest.class
 com/personalmoviedb/entity/MovieDaoTest.class
-com/personalmoviedb/util/Database.class
 com/personalmoviedb/entity/userDaoTest.class

@@ -1,6 +1,12 @@
-com/personalmoviedb/persistence/UserDao.class
-com/personalmoviedb/entity/User.class
-com/personalmoviedb/persistence/SessionFactoryProvider.class
+com/personalmoviedb/entity/SpokenLanguagesItem.class
 com/personalmoviedb/controller/SearchUsers.class
 com/personalmoviedb/persistence/MovieDao.class
 com/personalmoviedb/entity/Movie.class
+com/personalmoviedb/persistence/UserDao.class
+com/personalmoviedb/entity/User.class
+com/personalmoviedb/persistence/SessionFactoryProvider.class
+com/personalmoviedb/entity/MovieDetails.class
+com/personalmoviedb/entity/ProductionCountriesItem.class
+com/personalmoviedb/entity/GenresItem.class
+com/personalmoviedb/persistence/MovieDetailsDao.class
+com/personalmoviedb/entity/ProductionCompaniesItem.class
