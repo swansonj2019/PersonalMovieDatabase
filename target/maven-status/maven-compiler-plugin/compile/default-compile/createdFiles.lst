@@ -1,10 +1,15 @@
 com/personalmoviedb/entity/SpokenLanguagesItem.class
+com/personalmoviedb/persistence/MovieSearchDao.class
 com/personalmoviedb/controller/SearchUsers.class
 com/personalmoviedb/persistence/MovieDao.class
 com/personalmoviedb/entity/Movie.class
+com/personalmoviedb/entity/ResultsItem.class
+com/personalmoviedb/rest/UserService.class
 com/personalmoviedb/persistence/UserDao.class
 com/personalmoviedb/entity/User.class
+com/personalmoviedb/entity/TextSearch.class
 com/personalmoviedb/persistence/SessionFactoryProvider.class
+com/personalmoviedb/rest/UserApplication.class
 com/personalmoviedb/entity/MovieDetails.class
 com/personalmoviedb/entity/ProductionCountriesItem.class
 com/personalmoviedb/entity/GenresItem.class
