@@ -16,8 +16,8 @@ class MovieSearchDaoTest {
     void getSearchSuccess() {
         String posterPrefix = "https://image.tmdb.org/t/p/w370_and_h556_bestv2///";
         MovieSearchDao dao = new MovieSearchDao();
-        List<ResultsItem> results = dao.getMovie().getResults();
-        //logger.info(results);
+        List<ResultsItem> results = dao.getMovie("Gravity").getResults();
+
         for (ResultsItem item : results) {
             logger.info(item.getTitle() + " Poster Path: " + posterPrefix + item.getPosterPath());
             logger.info(item.getOverview());
