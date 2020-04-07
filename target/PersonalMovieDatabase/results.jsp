@@ -56,7 +56,7 @@
         </div>
     </div>
 <c:forEach items="${searchResults}" var="searchResults">
-    <div class="card mb-3 mx-auto" style="width: 55rem;">
+    <div class="card mb-3 mx-auto" style="width: 65rem; height: 40rem;">
         <div class="row no-gutters">
             <div class="col-md-4">
             <img src=https://image.tmdb.org/t/p/w370_and_h556_bestv2///${searchResults.getPosterPath()} class="card-img" alt="Not Found" onerror=this.src="img/not_available.jpg">

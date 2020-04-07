@@ -14,5 +14,7 @@ class MovieDetailsDaoTest {
         assertEquals("During the 1980s, a failed stand-up comedian is driven insane and turns to a life of" +
                     " crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
                 dao.getDetails().getOverview());
+
+        //assertEquals("???", dao.getDetails().get);
     }
 }

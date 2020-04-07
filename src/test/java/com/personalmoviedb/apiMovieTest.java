@@ -133,8 +133,9 @@
 //        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
 //        ObjectMapper mapper = new ObjectMapper();
 //        MovieDetails details = mapper.readValue(response, MovieDetails.class);
-//        assertEquals("Joker", details.getTitle());
-//        //assertEquals("???", response);
+//        logger.info(details.getTitle());
+//        logger.info(details.getOverview());
+//        logger.info(details);
 //    }
 //
 //}

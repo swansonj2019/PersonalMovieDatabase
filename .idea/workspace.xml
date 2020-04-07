@@ -7,204 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72426b6-0315-4ef9-8672-15bddfdafd82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._Joker.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_1_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._img_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._logo-adobe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._logo-apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._logo-google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._logo-netflix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._logo-nike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._logo-uber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._mr_robot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._person_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._person_1_sq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._person_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._person_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._ready_player_one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._simpsons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._st_picard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/._sw_tlj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Joker.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_1_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/img_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mr_robot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ready_player_one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/simpsons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/st_picard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sw_tlj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/tmdb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._aos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._bootstrap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._easing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._icofont" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._isotope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._jquery" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._line-awesome" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._owlcarousel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/._php-email-form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/aos/._aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/aos/._aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/aos/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/aos/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/._css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/._js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/._bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/._bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/easing/._easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/easing/._easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/easing/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/easing/easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/._fonts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/._icofont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/fonts/._icofont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/fonts/._icofont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/fonts/icofont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/fonts/icofont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/icofont/icofont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/isotope/._isotope.pkgd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/isotope/._isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/isotope/isotope.pkgd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/isotope/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/._jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/._jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/._css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/._fonts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/._meta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/css/._line-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/css/._line-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/css/line-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/css/line-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/._la-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/fonts/la-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/line-awesome/meta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/._LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/._assets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/._owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/._owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/._owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/php-email-form/._validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/PersonalMovieDatabase.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/PersonalMovieDatabase.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/sample_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/personalmoviedb/persistence/MovieDetailsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/personalmoviedb/persistence/MovieDetailsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/apiMovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/apiMovieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/entity/userDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/entity/userDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/persistence/MovieDetailsDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/personalmoviedb/persistence/MovieDetailsDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/images/sample_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/MovieDetailsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/MovieDetailsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/MovieDetailsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/MovieDetailsDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.entity.userDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.entity.userDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieDetailsDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieDetailsDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieSearchDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieSearchDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.entity.userDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.entity.userDaoTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieDetailsDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieDetailsDaoTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieSearchDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieSearchDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/persistence/MovieDetailsDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/persistence/MovieDetailsDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +66,20 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="movie_db: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="movie_db_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="movie_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user_roles: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -248,9 +87,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -489,10 +328,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.apiMovieTest.testServiceClient" />
         <item itemvalue="JUnit.MovieSearchDaoTest.getSearchSuccess" />
         <item itemvalue="JUnit.MovieDetailsDaoTest.getDetailsSuccess" />
         <item itemvalue="JUnit.MovieSearchDaoTest.getSearchSucess" />
-        <item itemvalue="JUnit.apiMovieTest.testServiceClient" />
         <item itemvalue="JUnit.apiMovieTest.movieSearchResults" />
       </list>
     </recent_temporary>
@@ -519,7 +358,22 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@13d4d92e" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@289678e7" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4d1f56dc" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3a4c3495" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@c4e7cf0" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -572,7 +426,13 @@
       <workItem from="1585417839212" duration="23000" />
       <workItem from="1585422134902" duration="5260000" />
       <workItem from="1585442323076" duration="6980000" />
-      <workItem from="1585510854798" duration="14144000" />
+      <workItem from="1585510854798" duration="14922000" />
+      <workItem from="1585690662109" duration="3383000" />
+      <workItem from="1585705787974" duration="315000" />
+      <workItem from="1586047247188" duration="22000" />
+      <workItem from="1586216812530" duration="4441000" />
+      <workItem from="1586222663557" duration="344000" />
+      <workItem from="1586223340650" duration="2952000" />
     </task>
     <servers />
   </component>
@@ -596,11 +456,11 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2125" y="315" width="800" height="677" key="#SQL_Dialects/67.27.3371.1261@67.27.3371.1261" timestamp="1582437004046" />
-    <state x="1856" y="89" width="906" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583806012602">
+    <state x="1816" y="109" width="906" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585706099880">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="201" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1373.873@67.27.1373.873" timestamp="1583450535107" />
-    <state x="1856" y="89" width="906" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1583806012602" />
+    <state x="1816" y="109" width="906" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1585706099880" />
     <state x="2387" y="365" width="544" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582486721668">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
@@ -609,113 +469,125 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="506" y="324" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1373.873@67.27.1373.873" timestamp="1583298675428" />
-    <state width="1114" height="253" key="GridCell.Tab.0.bottom" timestamp="1585531688009">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.0.bottom" timestamp="1586226315562">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="293" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585449475310" />
     <state width="1206" height="376" key="GridCell.Tab.0.bottom/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455986" />
+    <state width="1112" height="253" key="GridCell.Tab.0.bottom/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720388" />
     <state width="1114" height="253" key="GridCell.Tab.0.bottom/67.27.1667.1243@67.27.1667.1243" timestamp="1585531688009" />
     <state width="1099" height="22" key="GridCell.Tab.0.bottom/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956436" />
-    <state width="1126" height="22" key="GridCell.Tab.0.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861695" />
+    <state width="1097" height="253" key="GridCell.Tab.0.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315562" />
     <state width="687" height="203" key="GridCell.Tab.0.bottom/67.27.733.573@67.27.733.573" timestamp="1585442416489" />
-    <state width="1114" height="253" key="GridCell.Tab.0.center" timestamp="1585531687999">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.0.center" timestamp="1586226315561">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="293" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1585449475309" />
     <state width="1206" height="376" key="GridCell.Tab.0.center/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455985" />
+    <state width="1112" height="253" key="GridCell.Tab.0.center/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720387" />
     <state width="1114" height="253" key="GridCell.Tab.0.center/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687999" />
     <state width="1099" height="22" key="GridCell.Tab.0.center/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956436" />
-    <state width="1126" height="22" key="GridCell.Tab.0.center/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861694" />
+    <state width="1097" height="253" key="GridCell.Tab.0.center/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315561" />
     <state width="687" height="203" key="GridCell.Tab.0.center/67.27.733.573@67.27.733.573" timestamp="1585442416489" />
-    <state width="1114" height="253" key="GridCell.Tab.0.left" timestamp="1585531687997">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.0.left" timestamp="1586226315556">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="293" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1585449475306" />
     <state width="1206" height="376" key="GridCell.Tab.0.left/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455985" />
+    <state width="1112" height="253" key="GridCell.Tab.0.left/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720387" />
     <state width="1114" height="253" key="GridCell.Tab.0.left/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687997" />
     <state width="1099" height="22" key="GridCell.Tab.0.left/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956436" />
-    <state width="1126" height="22" key="GridCell.Tab.0.left/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861693" />
+    <state width="1097" height="253" key="GridCell.Tab.0.left/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315556" />
     <state width="687" height="203" key="GridCell.Tab.0.left/67.27.733.573@67.27.733.573" timestamp="1585442416488" />
-    <state width="1114" height="253" key="GridCell.Tab.0.right" timestamp="1585531688008">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.0.right" timestamp="1586226315561">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="1327" height="293" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1585449475309" />
     <state width="1206" height="376" key="GridCell.Tab.0.right/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455986" />
+    <state width="1112" height="253" key="GridCell.Tab.0.right/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720388" />
     <state width="1114" height="253" key="GridCell.Tab.0.right/67.27.1667.1243@67.27.1667.1243" timestamp="1585531688008" />
     <state width="1099" height="22" key="GridCell.Tab.0.right/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956436" />
-    <state width="1126" height="22" key="GridCell.Tab.0.right/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861694" />
+    <state width="1097" height="253" key="GridCell.Tab.0.right/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315561" />
     <state width="687" height="203" key="GridCell.Tab.0.right/67.27.733.573@67.27.733.573" timestamp="1585442416489" />
-    <state width="1114" height="253" key="GridCell.Tab.1.bottom" timestamp="1585531687584">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.1.bottom" timestamp="1586226315273">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.1.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585449472778" />
     <state width="1206" height="376" key="GridCell.Tab.1.bottom/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455988" />
+    <state width="1112" height="253" key="GridCell.Tab.1.bottom/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720390" />
     <state width="1114" height="253" key="GridCell.Tab.1.bottom/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
     <state width="1099" height="22" key="GridCell.Tab.1.bottom/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956438" />
-    <state width="1126" height="22" key="GridCell.Tab.1.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861697" />
+    <state width="1097" height="253" key="GridCell.Tab.1.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315273" />
     <state width="908" height="242" key="GridCell.Tab.1.bottom/67.27.733.573@67.27.733.573" timestamp="1583454199035" />
-    <state width="1114" height="253" key="GridCell.Tab.1.center" timestamp="1585531687584">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.1.center" timestamp="1586226315273">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.1.center/67.27.1373.873@67.27.1373.873" timestamp="1585449472778" />
     <state width="1206" height="376" key="GridCell.Tab.1.center/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455987" />
+    <state width="1112" height="253" key="GridCell.Tab.1.center/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720389" />
     <state width="1114" height="253" key="GridCell.Tab.1.center/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
     <state width="1099" height="22" key="GridCell.Tab.1.center/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956437" />
-    <state width="1126" height="22" key="GridCell.Tab.1.center/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861696" />
+    <state width="1097" height="253" key="GridCell.Tab.1.center/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315273" />
     <state width="908" height="242" key="GridCell.Tab.1.center/67.27.733.573@67.27.733.573" timestamp="1583454199034" />
-    <state width="1114" height="253" key="GridCell.Tab.1.left" timestamp="1585531687584">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.1.left" timestamp="1586226315272">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.1.left/67.27.1373.873@67.27.1373.873" timestamp="1585449472777" />
     <state width="1206" height="376" key="GridCell.Tab.1.left/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455987" />
+    <state width="1112" height="253" key="GridCell.Tab.1.left/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720388" />
     <state width="1114" height="253" key="GridCell.Tab.1.left/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
     <state width="1099" height="22" key="GridCell.Tab.1.left/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956437" />
-    <state width="1126" height="22" key="GridCell.Tab.1.left/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861696" />
+    <state width="1097" height="253" key="GridCell.Tab.1.left/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315272" />
     <state width="908" height="242" key="GridCell.Tab.1.left/67.27.733.573@67.27.733.573" timestamp="1583454199034" />
-    <state width="1114" height="253" key="GridCell.Tab.1.right" timestamp="1585531687584">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.1.right" timestamp="1586226315273">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.1.right/67.27.1373.873@67.27.1373.873" timestamp="1585449472778" />
     <state width="1206" height="376" key="GridCell.Tab.1.right/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455988" />
+    <state width="1112" height="253" key="GridCell.Tab.1.right/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720389" />
     <state width="1114" height="253" key="GridCell.Tab.1.right/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
     <state width="1099" height="22" key="GridCell.Tab.1.right/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956437" />
-    <state width="1126" height="22" key="GridCell.Tab.1.right/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861697" />
+    <state width="1097" height="253" key="GridCell.Tab.1.right/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315273" />
     <state width="908" height="242" key="GridCell.Tab.1.right/67.27.733.573@67.27.733.573" timestamp="1583454199035" />
-    <state width="1114" height="253" key="GridCell.Tab.2.bottom" timestamp="1585531687586">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.2.bottom" timestamp="1586226315272">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.2.bottom/67.27.1373.873@67.27.1373.873" timestamp="1585449472780" />
     <state width="1206" height="376" key="GridCell.Tab.2.bottom/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455990" />
+    <state width="1112" height="253" key="GridCell.Tab.2.bottom/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720391" />
     <state width="1114" height="253" key="GridCell.Tab.2.bottom/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687586" />
     <state width="1099" height="22" key="GridCell.Tab.2.bottom/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956438" />
-    <state width="1126" height="22" key="GridCell.Tab.2.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861699" />
+    <state width="1097" height="253" key="GridCell.Tab.2.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315272" />
     <state width="908" height="242" key="GridCell.Tab.2.bottom/67.27.733.573@67.27.733.573" timestamp="1583454199036" />
-    <state width="1114" height="253" key="GridCell.Tab.2.center" timestamp="1585531687585">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.2.center" timestamp="1586226315270">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.2.center/67.27.1373.873@67.27.1373.873" timestamp="1585449472779" />
     <state width="1206" height="376" key="GridCell.Tab.2.center/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455989" />
+    <state width="1112" height="253" key="GridCell.Tab.2.center/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720390" />
     <state width="1114" height="253" key="GridCell.Tab.2.center/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687585" />
     <state width="1099" height="22" key="GridCell.Tab.2.center/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956438" />
-    <state width="1126" height="22" key="GridCell.Tab.2.center/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861698" />
+    <state width="1097" height="253" key="GridCell.Tab.2.center/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315270" />
     <state width="908" height="242" key="GridCell.Tab.2.center/67.27.733.573@67.27.733.573" timestamp="1583454199036" />
-    <state width="1114" height="253" key="GridCell.Tab.2.left" timestamp="1585531687585">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.2.left" timestamp="1586226315270">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.2.left/67.27.1373.873@67.27.1373.873" timestamp="1585449472779" />
     <state width="1206" height="376" key="GridCell.Tab.2.left/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455988" />
+    <state width="1112" height="253" key="GridCell.Tab.2.left/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720390" />
     <state width="1114" height="253" key="GridCell.Tab.2.left/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687585" />
     <state width="1099" height="22" key="GridCell.Tab.2.left/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956438" />
-    <state width="1126" height="22" key="GridCell.Tab.2.left/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861698" />
+    <state width="1097" height="253" key="GridCell.Tab.2.left/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315270" />
     <state width="908" height="242" key="GridCell.Tab.2.left/67.27.733.573@67.27.733.573" timestamp="1583454199035" />
-    <state width="1114" height="253" key="GridCell.Tab.2.right" timestamp="1585531687585">
-      <screen x="67" y="27" width="1667" height="1243" />
+    <state width="1097" height="253" key="GridCell.Tab.2.right" timestamp="1586226315270">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state width="908" height="2" key="GridCell.Tab.2.right/67.27.1373.873@67.27.1373.873" timestamp="1585449472780" />
     <state width="1206" height="376" key="GridCell.Tab.2.right/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455989" />
+    <state width="1112" height="253" key="GridCell.Tab.2.right/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720391" />
     <state width="1114" height="253" key="GridCell.Tab.2.right/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687585" />
     <state width="1099" height="22" key="GridCell.Tab.2.right/67.27.1676.1242@67.27.1676.1242" timestamp="1585104956438" />
-    <state width="1126" height="22" key="GridCell.Tab.2.right/67.27.3371.1261@67.27.3371.1261" timestamp="1585426861699" />
+    <state width="1097" height="253" key="GridCell.Tab.2.right/67.27.3371.1261@67.27.3371.1261" timestamp="1586226315270" />
     <state width="908" height="242" key="GridCell.Tab.2.right/67.27.733.573@67.27.733.573" timestamp="1583454199036" />
     <state width="263" height="493" key="HiddenNamespacesPopup" timestamp="1585102313240">
       <screen x="67" y="27" width="1676" height="1242" />
@@ -726,10 +598,11 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2019" y="288" key="SettingsEditor/67.27.3371.1261@67.27.3371.1261" timestamp="1583966056983" />
-    <state x="472" y="103" width="552" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583284496286">
-      <screen x="67" y="27" width="1373" height="873" />
+    <state x="1061" y="137" width="552" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586225174618">
+      <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="472" y="103" width="552" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.1373.873@67.27.1373.873" timestamp="1583284496286" />
+    <state x="1061" y="137" width="552" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1586225174618" />
     <state x="2266" y="374" width="556" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584421891282">
       <screen x="67" y="27" width="3371" height="1261" />
     </state>

@@ -17,7 +17,7 @@ public class MovieDetailsDao {
     public MovieDetails getDetails() {
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("https://api.themoviedb.org/3/movie/475557?api_key=d50c74af75d839557ecd94c9f6bda5c8&language=en-US");
+                client.target("https://api.themoviedb.org/3/movie/475557?api_key=d50c74af75d839557ecd94c9f6bda5c8&language=en-US&append_to_response=video");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         ObjectMapper mapper = new ObjectMapper();
         MovieDetails details = null;
