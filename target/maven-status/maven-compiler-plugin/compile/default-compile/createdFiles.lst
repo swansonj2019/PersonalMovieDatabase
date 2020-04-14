@@ -10,6 +10,7 @@ com/personalmoviedb/entity/User.class
 com/personalmoviedb/entity/TextSearch.class
 com/personalmoviedb/persistence/SessionFactoryProvider.class
 com/personalmoviedb/rest/UserApplication.class
+com/personalmoviedb/controller/newUser.class
 com/personalmoviedb/entity/MovieDetails.class
 com/personalmoviedb/entity/ProductionCountriesItem.class
 com/personalmoviedb/entity/GenresItem.class

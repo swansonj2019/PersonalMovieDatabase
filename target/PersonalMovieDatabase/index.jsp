@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6 text-left text-lg-right">
                     <a href="login.jsp">Login</a>
-                    <a href="#">Sign up</a>
+                    <a href="addUser.jsp">Sign up</a>
                     <a href="search.jsp">Search for Movies</a>
                     <a href="#">About</a>
                 </div>

@@ -3,6 +3,7 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/rest/UserApplication.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/SessionFactoryProvider.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/TextSearch.java
+/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/newUser.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieSearchDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/UserDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieDao.java

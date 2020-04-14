@@ -15,8 +15,8 @@ import java.util.List;
 
 
 /**
- * A simple servlet to welcome the user.
- * @author pwaite
+ * A servlet to search for movies
+ * @author jswanson
  */
 
 @WebServlet(
