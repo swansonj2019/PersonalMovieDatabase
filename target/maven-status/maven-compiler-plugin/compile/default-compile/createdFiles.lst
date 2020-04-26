@@ -1,6 +1,6 @@
 com/personalmoviedb/entity/SpokenLanguagesItem.class
+com/personalmoviedb/controller/SearchMovies.class
 com/personalmoviedb/persistence/MovieSearchDao.class
-com/personalmoviedb/controller/SearchUsers.class
 com/personalmoviedb/persistence/MovieDao.class
 com/personalmoviedb/entity/Movie.class
 com/personalmoviedb/entity/ResultsItem.class

@@ -1,4 +1,3 @@
-/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/SearchUsers.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/rest/UserService.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/rest/UserApplication.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/SessionFactoryProvider.java
@@ -13,5 +12,6 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/User.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieDetailsDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/GenresItem.java
+/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/SearchMovies.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/Movie.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/ProductionCountriesItem.java

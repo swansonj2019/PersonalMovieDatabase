@@ -24,4 +24,15 @@ class MovieSearchDaoTest {
         }
 
     }
+
+    @Test
+    void testStringReplace() {
+        String movieName = "Star Wars";
+
+        movieName = movieName.trim();
+
+        movieName = movieName.replaceAll("\\s", "%20");
+
+        logger.info(movieName);
+    }
 }

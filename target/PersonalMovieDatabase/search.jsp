@@ -64,7 +64,7 @@
             <div class="card mx-auto" style="width: 35rem;">
 
                 <!-- Default form login -->
-                <form class="text-center border border-light p-5" action="searchUser">
+                <form class="text-center border border-light p-5" action="searchMovies">
 
                     <p class="h4 mb-4">Enter Movie Title to Search</p>
                     <input type="text" class="form-control" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Movie Title">
