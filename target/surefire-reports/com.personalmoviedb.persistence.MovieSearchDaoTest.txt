@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.personalmoviedb.persistence.MovieSearchDaoTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.284 sec - in com.personalmoviedb.persistence.MovieSearchDaoTest
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.347 sec - in com.personalmoviedb.persistence.MovieSearchDaoTest
+>>>>>>> 21a8bfe7e70613c730613da8ecdd8e11368ecaf9

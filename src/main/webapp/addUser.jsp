@@ -1,4 +1,6 @@
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +14,7 @@
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Raleway:400,700&display=swap"
@@ -47,64 +50,32 @@
                     <h2>Welcome to the Personal Movie Database</h2>
                     <p class="mb-0">Rate and Track your favorite Movies and TV Shows!</p>
                 </div>
-                <div class="col-md-12 col-lg-6 text-left text-lg-right">
-                    <a href="login.jsp">Login</a>
-                    <a href="addUser.jsp">Sign up</a>
-                    <a href="search.jsp">Search for Movies</a>
-                    <a href="#">About</a>
+                <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
+                    <div id="filters" class="filters">
+                        <a href="login.jsp">Login</a>
+                        <a href="#">Sign up</a>
+                        <a href="#">About</a>
+                    </div>
                 </div>
             </div>
-            <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-                <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Star Wars: The Last Jedi</h3>
-                        </div>
-                        <img class="img-fluid" src="img/sw_tlj.jpg">
-                    </a>
-                </div>
-                <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Joker</h3>
-                        </div>
-                        <img class="img-fluid" src="img/Joker.jpg">
-                    </a>
-                </div>
-                <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Ready Player One</h3>
-                        </div>
-                        <img class="img-fluid" src="img/ready_player_one.jpg">
-                    </a>
-                </div>
-                <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Star Trek</h3>
-                            <span>Picard</span>
-                        </div>
-                        <img class="img-fluid" src="img/st_picard.jpg">
-                    </a>
-                </div>
-                <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Mr. Robot</h3>
-                        </div>
-                        <img class="img-fluid" src="img/mr_robot.jpg">
-                    </a>
-                </div>
-                <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>The Simpsons</h3>
-                        </div>
-                        <img class="img-fluid" src="img/simpsons.jpg">
-                    </a>
-                </div>
+            <br/>
+            <br/>
+
+            <div class="card mx-auto" style="width: 35rem;">
+
+                <!-- Default form login -->
+                <form class="text-center border border-light p-5" action="newUser">
+
+                    <p class="h4 mb-4">Enter new user details</p>
+                    <input type="text" class="form-control" id="username" name="username" aria-describedby="usernameHelp" placeholder="Username">
+                    <br/>
+                    <input type="password" class="form-control" id="password" name="password" aria-describedby="passwordHelp" placeholder="Password">
+                    <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
+
+                </form>
             </div>
+
+
         </div>
     </div>
 
@@ -189,4 +160,47 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+<%--<!doctype html>--%>
+<%--<html lang="en">--%>
+<%--<head>--%>
+<%--    <!-- Required meta tags -->--%>
+<%--    <meta charset="utf-8">--%>
+<%--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">--%>
+
+<%--    <!-- Bootstrap CSS -->--%>
+<%--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">--%>
+
+<%--    <title>Search</title>--%>
+<%--</head>--%>
+<%--<body>--%>
+<%--<div class="text-center">--%>
+<%--    <div class="container">--%>
+<%--        <h2>Search All or Search by Username</h2>--%>
+<%--        <form action="searchUser" class="form-inline">--%>
+<%--            <div class="form-group">--%>
+<%--                <label for="searchTerm">Search</label>--%>
+<%--                <input type="text" class="form-control" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Username">--%>
+<%--            </div>--%>
+<%--            <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>--%>
+<%--            <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View all users</button>--%>
+<%--        </form>--%>
+<%--    </div>--%>
+<%--</div>--%>
+
+<%--<!-- Optional JavaScript -->--%>
+<%--<!-- jQuery first, then Popper.js, then Bootstrap JS -->--%>
+<%--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>--%>
+<%--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>--%>
+<%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>--%>
+<%--</body>--%>
+<%--</html>--%>
+
+
 

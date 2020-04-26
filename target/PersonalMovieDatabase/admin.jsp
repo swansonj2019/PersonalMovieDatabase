@@ -84,7 +84,7 @@
             <div class="card mx-auto" style="width: 35rem;">
                 <h1 class="card-title mx-auto">Users</h1>
                 <%
-                    HttpSession sess =request.getSession();
+                    HttpSession sess = request.getSession();
 
                     UserDao dao = new UserDao();
                     List<User> users = new ArrayList<User>();

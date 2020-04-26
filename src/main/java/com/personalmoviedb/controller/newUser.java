@@ -1,6 +1,7 @@
 package com.personalmoviedb.controller;
 
 import com.personalmoviedb.entity.ResultsItem;
+import com.personalmoviedb.entity.User;
 import com.personalmoviedb.persistence.MovieSearchDao;
 import com.personalmoviedb.persistence.UserDao;
 
@@ -15,24 +16,26 @@ import java.util.List;
 
 
 /**
- * A servlet to search for movies
+ * A servlet to add new users
  * @author jswanson
  */
 
 @WebServlet(
-        urlPatterns = {"/searchMovies"}
+        urlPatterns = {"/newUser"}
 )
 
-public class SearchMovies extends HttpServlet {
+public class newUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         UserDao userDao = new UserDao();
-        MovieSearchDao movieDao = new MovieSearchDao();
         if (req.getParameter("submit").equals("search")) {
+            //req.setAttribute("users", userDao.getByPropertyEqual("userName", req.getParameter("searchTerm")));
+            String username = req.getParameter("username");
+            String password = req.getParameter("password");
+            User user = new User(username, password);
+            userDao.insert(user);
 
-            List<ResultsItem> results = movieDao.getMovie(req.getParameter("searchTerm")).getResults();
-            req.setAttribute("searchResults", results);
         } else {
             req.setAttribute("users", userDao.getAllUsers());
         }
