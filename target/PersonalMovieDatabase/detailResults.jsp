@@ -55,16 +55,12 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto">
-    <div class="card mx-auto">
-        <h5 class="card-header">Movie Details</h5>
-        <div class="card-body">
-            <h5 class="card-title">Movie Title: <%request.getAttribute("title");%></h5>
-            <p class="card-text">Movie Info</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">
+
+            <h2>Id Test: <c:out value="${sessionScope.Id}" /></h2>
         </div>
-    </div>
-    </div>
+
     <div class="site-section">
         <div class="container">
             <div class="row justify-content-center text-center mb-4">
