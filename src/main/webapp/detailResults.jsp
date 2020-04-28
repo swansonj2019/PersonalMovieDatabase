@@ -1,3 +1,7 @@
+<%@ page import="com.personalmoviedb.persistence.MovieDetailsDao" %>
+<%@ page import="com.personalmoviedb.entity.MovieDetails" %>
+<%@ page import="org.apache.logging.log4j.LogManager" %>
+<%@ page import="org.apache.logging.log4j.Logger" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,10 +60,32 @@
         </div>
     </div>
 
+        <%
+
+            HttpSession sess = request.getSession();
+
+            MovieDetailsDao dao = new MovieDetailsDao();
+
+            MovieDetails details = dao.getDetails(request.getParameter("Id"));
+
+            sess.setAttribute("details", details);
+
+
+        %>
+
         <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">
 
 <%--            <h2>Id Test: <c:out value="${sessionScope.Id}" /></h2>--%>
             <h2><% out.println("The Movie ID Is: " + request.getParameter("Id"));%></h2>
+
+<%--    <c:forEach items="${details}" var="details">--%>
+
+        <h2>${details.getTagline()}</h2><br/>
+        <h2>${details.getOverview()}</h2><br/>
+        <h2>${details.getHomepage()}</h2><br/>
+        <img src=https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}/>
+
+<%--    </c:forEach>--%>
         </div>
 
     <div class="site-section">
