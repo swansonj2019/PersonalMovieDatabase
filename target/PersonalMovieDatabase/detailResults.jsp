@@ -58,7 +58,8 @@
 
         <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">
 
-            <h2>Id Test: <c:out value="${sessionScope.Id}" /></h2>
+<%--            <h2>Id Test: <c:out value="${sessionScope.Id}" /></h2>--%>
+            <h2><% out.println("The Movie ID Is: " + request.getParameter("Id"));%></h2>
         </div>
 
     <div class="site-section">

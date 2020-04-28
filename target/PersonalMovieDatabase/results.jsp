@@ -58,7 +58,7 @@
 
 <c:forEach items="${searchResults}" var="searchResults">
     <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">
-        <c:set var="Id" value="${searchResults.getId()}" scope="session" />
+<%--        <c:set var="Id" value="${searchResults.getId()}" scope="session" />--%>
         <div class="row no-gutters">
             <div class="col-md-4">
             <img src=https://image.tmdb.org/t/p/w370_and_h556_bestv2///${searchResults.getPosterPath()} class="card-img" alt="Not Found" onerror=this.src="img/not_available.jpg">
@@ -72,7 +72,7 @@
                     <div class="text-center">
                         <br/>
                         <p class="card-text">Release Date: ${searchResults.getReleaseDate()}</p>
-                        <a href="detailResults.jsp" class="btn btn-primary">Get Movie Details</a>
+                        <a href="detailResults.jsp?Id=${searchResults.getId()}" class="btn btn-primary">Get Movie Details</a>
                     </div>
 
                 </div>
