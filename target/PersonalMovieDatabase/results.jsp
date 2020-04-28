@@ -55,6 +55,7 @@
             </div>
         </div>
     </div>
+
 <c:forEach items="${searchResults}" var="searchResults">
     <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">
 
@@ -67,12 +68,14 @@
                     <div class="text-center">
                         <h3 class="card-title">${searchResults.getTitle()}</h3>
                         <p class="card-text">${searchResults.getOverview()}</p>
+                        <p class="card-text">${searchResults.getId()}</p>
                     </div>
                     <div class="text-center">
                         <br/>
                         <p class="card-text">Release Date: ${searchResults.getReleaseDate()}</p>
-                        <a href="#" class="btn btn-primary">Get Movie Details</a>
+                        <a href="movieDetails.jsp?title=${searchResults.getTitle()}" class="btn btn-primary">Get Movie Details</a>
                     </div>
+
                 </div>
             </div>
         </div>

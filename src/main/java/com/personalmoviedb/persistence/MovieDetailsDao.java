@@ -14,10 +14,12 @@ import javax.ws.rs.core.MediaType;
 public class MovieDetailsDao {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
-    public MovieDetails getDetails() {
+    public MovieDetails getDetails(String Id) {
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("https://api.themoviedb.org/3/movie/475557?api_key=d50c74af75d839557ecd94c9f6bda5c8&language=en-US&append_to_response=video");
+                client.target("https://api.themoviedb.org/3/movie/" +
+                        Id +
+                        "?api_key=d50c74af75d839557ecd94c9f6bda5c8&language=en-US&append_to_response=video");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         ObjectMapper mapper = new ObjectMapper();
         MovieDetails details = null;
