@@ -15,6 +15,5 @@ class MovieDetailsDaoTest {
                     " crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
                 dao.getDetails("475557").getOverview());
 
-        //assertEquals("???", dao.getDetails().get);
     }
 }

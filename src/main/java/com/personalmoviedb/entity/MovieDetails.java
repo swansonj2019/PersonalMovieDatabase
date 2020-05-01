@@ -40,9 +40,6 @@ public class MovieDetails{
 	@JsonProperty("vote_count")
 	private int voteCount;
 
-	@JsonProperty("videos")
-	private Videos videos;
-
 	@JsonProperty("budget")
 	private int budget;
 
@@ -99,14 +96,6 @@ public class MovieDetails{
 
 	public String getImdbId(){
 		return imdbId;
-	}
-
-	public void setVideos(Videos videos){
-		this.videos = videos;
-	}
-
-	public Videos getVideos(){
-		return videos;
 	}
 
 	public boolean isVideo(){
