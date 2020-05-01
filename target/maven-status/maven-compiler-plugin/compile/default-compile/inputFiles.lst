@@ -5,6 +5,7 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/newUser.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieSearchDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/UserDao.java
+/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/Videos.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/MovieDetails.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/SpokenLanguagesItem.java
@@ -12,6 +13,7 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/ProductionCompaniesItem.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/User.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieDetailsDao.java
+/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/BelongsToCollection.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/GenresItem.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/SearchMovies.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/Movie.java

@@ -73,20 +73,42 @@
 
         %>
 
-        <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">
+    <div class="container">
 
-<%--            <h2>Id Test: <c:out value="${sessionScope.Id}" /></h2>--%>
-            <h2><% out.println("The Movie ID Is: " + request.getParameter("Id"));%></h2>
-
-<%--    <c:forEach items="${details}" var="details">--%>
-
-        <h2>${details.getTagline()}</h2><br/>
-        <h2>${details.getOverview()}</h2><br/>
-        <h2>${details.getHomepage()}</h2><br/>
-        <img src=https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}/>
-
-<%--    </c:forEach>--%>
+    </div>
+    <div class="card bg-light mb-3 mx-auto" style="max-width: 60rem;">
+        <div class="card-header">
+            <h1 class="text-center">${details.getTitle()}</h1>
         </div>
+        <div class="card-body text-center">
+            <div class="row text-center">
+                <div class="col-sm">
+                    <img src="https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}" alt="Poster" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <br/>
+                    <h5 class="card-title">${details.getTagline()}</h5>
+                    <p class="card-text">${details.getOverview()}</p>
+<%--                    <p class="card-text">${details.getVideos()}</p>--%>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+<%--        <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">--%>
+<%--            <h2><% out.println("The Movie ID Is: " + request.getParameter("Id"));%></h2>--%>
+
+
+<%--        <h2>${details.getTagline()}</h2><br/>--%>
+<%--        <h2>${details.getOverview()}</h2><br/>--%>
+<%--        <h2>${details.getHomepage()}</h2><br/>--%>
+<%--            <img src="https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}" alt="Poster" />--%>
+
+
+<%--        </div>--%>
 
     <div class="site-section">
         <div class="container">
