@@ -5,7 +5,6 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/newUser.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieSearchDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/UserDao.java
-/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/Videos.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/MovieDao.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/MovieDetails.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/SpokenLanguagesItem.java

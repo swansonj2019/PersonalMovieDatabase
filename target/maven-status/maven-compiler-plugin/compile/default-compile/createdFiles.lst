@@ -7,7 +7,6 @@ com/personalmoviedb/entity/Movie.class
 com/personalmoviedb/entity/ResultsItem.class
 com/personalmoviedb/rest/UserService.class
 com/personalmoviedb/persistence/UserDao.class
-com/personalmoviedb/entity/Videos.class
 com/personalmoviedb/entity/User.class
 com/personalmoviedb/entity/TextSearch.class
 com/personalmoviedb/persistence/SessionFactoryProvider.class

@@ -84,6 +84,7 @@
             <div class="row text-center">
                 <div class="col-sm">
                     <img src="https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}" alt="Poster" />
+                    <img src="https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getBackdropPath()}" alt="Poster" />
                 </div>
             </div>
             <div class="row">
@@ -95,6 +96,41 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="card mb-3 mx-auto" style="max-width: 60rem;">
+        <div class="card-header">
+            <h1 class="text-center">Rate and Add this Movie?</h1>
+        </div>
+        <div class="card-body text-center">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Give this Movie a Rating</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1 - Total Stinker!</option>
+                        <option>2 - Mostly Awful</option>
+                        <option>3 - Pretty Bad</option>
+                        <option>4 - Poor</option>
+                        <option>5 - Just Meh</option>
+                        <option>6 - Not All Bad</option>
+                        <option>7 - It Was Okay</option>
+                        <option>8 - It was Decent</option>
+                        <option>9 - I loved It</option>
+                        <option>10 - Possibly the best Movie Ever</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">How did you feel about this Movie?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Rate and Add</button>
+            </form>
+        </div>
+    </div>
+    </div>
     </div>
 
     </div>
