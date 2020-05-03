@@ -56,6 +56,8 @@ public class newMovie extends HttpServlet{
             LocalDateTime now = LocalDateTime.now();
             Movie movie = new Movie(title,id,overview,release,posterUrl,null,"user",rating,description,now);
             dao.insert(movie);
+
+            req.setAttribute("title", title);
         } else {
 //            req.setAttribute("users", userDao.getAllUsers());
         }
