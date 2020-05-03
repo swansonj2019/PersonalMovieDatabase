@@ -106,10 +106,10 @@
             <h1 class="text-center">Rate and Add this Movie?</h1>
         </div>
         <div class="card-body text-center">
-            <form>
+            <form action="insertMovie">
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Give this Movie a Rating</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <label for="rating">Give this Movie a Rating</label>
+                    <select class="form-control" id="rating" name="rating">
                         <option>1 - Total Stinker!</option>
                         <option>2 - Mostly Awful</option>
                         <option>3 - Pretty Bad</option>
@@ -123,10 +123,16 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">How did you feel about this Movie?</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="description">How did you feel about this Movie?</label>
+                    <textarea class="form-control" id="description" name="description" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Rate and Add</button>
+                <div class="form-group">
+                    <input type="hidden" id="title" name="title" value="${details.getTitle()}">
+                    <input type="hidden" id="id" name="id" value="${details.getId()}">
+                    <input type="hidden" id="overview" name="overview" value="${details.getOverview()}">
+                    <input type="hidden" id="release" name="release" value="${details.getReleaseDate()}">
+                </div>
+                <button type="submit" name="submit" value="details" class="btn btn-primary">Rate and Add</button>
             </form>
         </div>
     </div>

@@ -1,5 +1,6 @@
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/rest/UserService.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/rest/UserApplication.java
+/home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/newMovie.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/persistence/SessionFactoryProvider.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/entity/TextSearch.java
 /home/student/IdeaProjects/PersonalMovieDatabase/src/main/java/com/personalmoviedb/controller/newUser.java

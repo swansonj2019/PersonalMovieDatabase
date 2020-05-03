@@ -30,7 +30,6 @@ public class newUser extends HttpServlet {
 
         UserDao userDao = new UserDao();
         if (req.getParameter("submit").equals("search")) {
-            //req.setAttribute("users", userDao.getByPropertyEqual("userName", req.getParameter("searchTerm")));
             String username = req.getParameter("username");
             String password = req.getParameter("password");
             User user = new User(username, password);

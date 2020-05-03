@@ -4,6 +4,7 @@ com/personalmoviedb/persistence/MovieSearchDao.class
 com/personalmoviedb/entity/BelongsToCollection.class
 com/personalmoviedb/persistence/MovieDao.class
 com/personalmoviedb/entity/Movie.class
+com/personalmoviedb/controller/newMovie.class
 com/personalmoviedb/entity/ResultsItem.class
 com/personalmoviedb/rest/UserService.class
 com/personalmoviedb/persistence/UserDao.class
