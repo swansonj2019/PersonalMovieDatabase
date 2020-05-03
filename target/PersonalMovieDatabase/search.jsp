@@ -61,6 +61,12 @@
             <br/>
             <br/>
 
+            <%
+                HttpSession sess = request.getSession();
+                String username = request.getParameter("username");
+                sess.setAttribute("username", username);
+            %>
+
             <div class="card mx-auto" style="width: 35rem;">
 
                 <!-- Default form login -->

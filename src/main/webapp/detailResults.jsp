@@ -90,7 +90,6 @@
                     <br/>
                     <h5 class="card-title">${details.getTagline()}</h5>
                     <p class="card-text">${details.getOverview()}</p>
-<%--                    <p class="card-text">${details.getVideos()}</p>--%>
                 </div>
             </div>
         </div>
@@ -139,17 +138,6 @@
     </div>
 
     </div>
-<%--        <div class="card mb-3 mx-auto" style="width: 50rem; height: 25rem;">--%>
-<%--            <h2><% out.println("The Movie ID Is: " + request.getParameter("Id"));%></h2>--%>
-
-
-<%--        <h2>${details.getTagline()}</h2><br/>--%>
-<%--        <h2>${details.getOverview()}</h2><br/>--%>
-<%--        <h2>${details.getHomepage()}</h2><br/>--%>
-<%--            <img src="https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}" alt="Poster" />--%>
-
-
-<%--        </div>--%>
 
     <div class="site-section">
         <div class="container">

@@ -68,10 +68,13 @@
             %>
 
             <div class="card mx-auto" style="width: 35rem;">
-
+                <br/>
                 <h2 class="text-center">${title} has been added!</h2>
                 <br/>
-                <a href="index.jsp">Take Me Home</a>
+                <div class="mx-auto">
+                    <img src="img/check.png" height="200" width="200">
+                </div>
+                <a class="text-center" href="index.jsp">Take Me Home</a>
             </div>
 
 

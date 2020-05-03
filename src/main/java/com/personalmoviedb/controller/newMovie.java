@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -44,6 +45,7 @@ public class newMovie extends HttpServlet{
             String rating = req.getParameter("rating");
             String description = req.getParameter("description");
             String posterUrl = req.getParameter("posterUrl");
+
 
             logger.info(id);
             logger.info(title);
