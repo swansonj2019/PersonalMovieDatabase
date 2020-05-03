@@ -43,6 +43,7 @@ public class newMovie extends HttpServlet{
             String release = req.getParameter("release");
             String rating = req.getParameter("rating");
             String description = req.getParameter("description");
+            String posterUrl = req.getParameter("posterUrl");
 
             logger.info(id);
             logger.info(title);
@@ -53,7 +54,7 @@ public class newMovie extends HttpServlet{
 
             MovieDao dao = new MovieDao();
             LocalDateTime now = LocalDateTime.now();
-            Movie movie = new Movie(title,id,overview,release,null,null,"user",rating,description,now);
+            Movie movie = new Movie(title,id,overview,release,posterUrl,null,"user",rating,description,now);
             dao.insert(movie);
         } else {
 //            req.setAttribute("users", userDao.getAllUsers());

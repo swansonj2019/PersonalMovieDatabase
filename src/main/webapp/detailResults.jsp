@@ -69,8 +69,6 @@
             MovieDetails details = dao.getDetails(request.getParameter("Id"));
 
             sess.setAttribute("details", details);
-
-
         %>
 
     <div class="container">
@@ -131,6 +129,7 @@
                     <input type="hidden" id="id" name="id" value="${details.getId()}">
                     <input type="hidden" id="overview" name="overview" value="${details.getOverview()}">
                     <input type="hidden" id="release" name="release" value="${details.getReleaseDate()}">
+                    <input type="hidden" id="posterUrl" name="posterUrl" value="https://image.tmdb.org/t/p/w370_and_h556_bestv2//${details.getPosterPath()}">
                 </div>
                 <button type="submit" name="submit" value="details" class="btn btn-primary">Rate and Add</button>
             </form>
