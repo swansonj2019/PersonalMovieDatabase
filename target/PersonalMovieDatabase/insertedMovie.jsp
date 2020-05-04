@@ -75,6 +75,7 @@
                     <img src="img/check.png" height="200" width="200">
                 </div>
                 <a class="text-center" href="index.jsp">Take Me Home</a>
+                <br/>
             </div>
 
 
