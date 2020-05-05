@@ -56,7 +56,9 @@ public class newMovie extends HttpServlet{
 
             MovieDao dao = new MovieDao();
             LocalDateTime now = LocalDateTime.now();
-            Movie movie = new Movie(title,id,overview,release,posterUrl,null,"user",rating,description,now);
+
+            String username = req.getRemoteUser();
+            Movie movie = new Movie(title,id,overview,release,posterUrl,null,username,rating,description,now);
             dao.insert(movie);
 
             req.setAttribute("title", title);
