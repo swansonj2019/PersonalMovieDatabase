@@ -51,6 +51,7 @@
                     <a href="login.jsp">Login</a>
                     <a href="addUser.jsp">Sign up</a>
                     <a href="search.jsp">Search for Movies</a>
+                    <a href="myMovies.jsp">My Movies</a>
                     <a href="#">About</a>
                 </div>
             </div>
