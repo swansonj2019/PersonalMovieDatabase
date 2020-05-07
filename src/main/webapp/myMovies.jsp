@@ -66,7 +66,7 @@
                 MovieDao dao = new MovieDao();
                 List<Movie> movies = new ArrayList<Movie>();
 
-                movies = dao.getAllMovies();
+                movies = dao.getByPropertyEqual("username", request.getRemoteUser());
 
                 sess.setAttribute("movies", movies);
 
