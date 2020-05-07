@@ -53,6 +53,7 @@
                     <a href="search.jsp">Search for Movies</a>
                     <a href="myMovies.jsp">My Movies</a>
                     <a href="#">About</a>
+                    <a href="logout.jsp">Logout</a>
                 </div>
             </div>
             <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">

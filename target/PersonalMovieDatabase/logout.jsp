@@ -1,4 +1,6 @@
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +14,7 @@
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Raleway:400,700&display=swap"
@@ -47,66 +50,37 @@
                     <h2>Welcome to the Personal Movie Database</h2>
                     <p class="mb-0">Rate and Track your favorite Movies and TV Shows!</p>
                 </div>
-                <div class="col-md-12 col-lg-6 text-left text-lg-right">
-                    <a href="login.jsp">Login</a>
-                    <a href="addUser.jsp">Sign up</a>
-                    <a href="search.jsp">Search for Movies</a>
-                    <a href="myMovies.jsp">My Movies</a>
-                    <a href="#">About</a>
-                    <a href="logout.jsp">Logout</a>
+                <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
+                    <div id="filters" class="filters">
+                        <a href="login.jsp">Login</a>
+                        <a href="#">Sign up</a>
+                        <a href="#">About</a>
+                    </div>
                 </div>
             </div>
-            <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-                <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Star Wars: The Last Jedi</h3>
-                        </div>
-                        <img class="img-fluid" src="img/sw_tlj.jpg">
-                    </a>
+            <br/>
+            <br/>
+
+            <%
+
+                if (session != null) {
+                    session.invalidate();
+                }
+
+            %>
+
+            <div class="card mx-auto" style="width: 35rem;">
+                <br/>
+                <h2 class="text-center">User Logged Out</h2>
+                <br/>
+                <div class="mx-auto">
+                    <img src="img/check.png" height="200" width="200">
                 </div>
-                <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Joker</h3>
-                        </div>
-                        <img class="img-fluid" src="img/Joker.jpg">
-                    </a>
-                </div>
-                <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Ready Player One</h3>
-                        </div>
-                        <img class="img-fluid" src="img/ready_player_one.jpg">
-                    </a>
-                </div>
-                <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Star Trek</h3>
-                            <span>Picard</span>
-                        </div>
-                        <img class="img-fluid" src="img/st_picard.jpg">
-                    </a>
-                </div>
-                <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>Mr. Robot</h3>
-                        </div>
-                        <img class="img-fluid" src="img/mr_robot.jpg">
-                    </a>
-                </div>
-                <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" class="item-wrap fancybox">
-                        <div class="work-info">
-                            <h3>The Simpsons</h3>
-                        </div>
-                        <img class="img-fluid" src="img/simpsons.jpg">
-                    </a>
-                </div>
+                <a class="text-center" href="index.jsp">Take Me Home</a>
+                <br/>
             </div>
+
+
         </div>
     </div>
 
@@ -191,4 +165,7 @@
 </body>
 
 </html>
+
+
+
 

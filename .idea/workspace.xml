@@ -7,218 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72426b6-0315-4ef9-8672-15bddfdafd82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/PersonalMovieDatabase.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/PersonalMovieDatabase.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/myMovies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/myMovies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/controller/SearchMovies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/controller/newMovie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/controller/newUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/BelongsToCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/GenresItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/MovieDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/ProductionCompaniesItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/ProductionCountriesItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/ResultsItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/SpokenLanguagesItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/TextSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/MovieDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/MovieDetailsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/MovieSearchDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/RoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/SessionFactoryProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/persistence/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/rest/UserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/com/personalmoviedb/rest/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/classes/project_4.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/aopalliance-repackaged-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/byte-buddy-1.9.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/c3p0-0.9.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/converter-gson-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/hibernate-c3p0-5.4.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/hibernate-core-5.4.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/hk2-api-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/hk2-locator-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/hk2-utils-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jackson-annotations-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jackson-core-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jackson-core-asl-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jackson-databind-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jackson-jaxrs-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jackson-mapper-asl-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jakarta.activation-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jakarta.inject-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/javaee-web-api-7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jersey-client-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jersey-common-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jersey-hk2-2.29.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/log4j-core-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/mchange-commons-java-0.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/okhttp-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/okio-1.15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/osgi-resource-locator-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/retrofit-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/tmdb-java-2.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/addUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/css/scss/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/detailResults.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/Joker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/img_1_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/img_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/img_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/mr_robot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/not_available.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/ready_player_one.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/simpsons.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/st_picard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/sw_tlj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/img/tmdb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/insertedMovie.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/loginError.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/myMovies.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/results.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/aos/aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/aos/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/easing/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/easing/easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/icofont/fonts/icofont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/icofont/fonts/icofont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/icofont/icofont.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/isotope/isotope.pkgd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/isotope/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/jquery/jquery-migrate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/css/line-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/css/line-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/fonts/la-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/line-awesome/meta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/owlcarousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase/vendor/php-email-form/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/controller/SearchMovies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/controller/newMovie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/controller/newUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/BelongsToCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/GenresItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/MovieDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/ProductionCompaniesItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/ProductionCountriesItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/ResultsItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/SpokenLanguagesItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/TextSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/MovieDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/MovieDetailsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/MovieSearchDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/RoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/SessionFactoryProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/persistence/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/rest/UserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalmoviedb/rest/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/project_4.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieDetailsDaoTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieSearchDaoTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieDetailsDaoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieSearchDaoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cleandb.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/entity/MovieDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/persistence/MovieDetailsDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/persistence/MovieSearchDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/personalmoviedb/util/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonalMovieDatabase.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieDetailsDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieDetailsDaoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieSearchDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.personalmoviedb.persistence.MovieSearchDaoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieDetailsDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieDetailsDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieSearchDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.personalmoviedb.persistence.MovieSearchDaoTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,19 +125,19 @@
       <recent name="com.personalmoviedb.persistence" />
       <recent name="com.personalmoviedb.entity" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.personalmoviedb.entity" />
       <recent name="com.personalmoviedb" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/Screenshots" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/Screenshots" />
     </key>
   </component>
   <component name="RunManager" selected="TomEE Server.Tomcat">
@@ -526,6 +324,11 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
@@ -604,7 +407,7 @@
       <workItem from="1588463637537" duration="14362000" />
       <workItem from="1588524196879" duration="1435000" />
       <workItem from="1588551003328" duration="20324000" />
-      <workItem from="1588809684277" duration="1912000" />
+      <workItem from="1588809684277" duration="3572000" />
     </task>
     <servers />
   </component>
@@ -649,10 +452,10 @@
       <screen x="67" y="27" width="3371" height="1261" />
     </state>
     <state x="2312" y="397" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.3371.1261@67.27.3371.1261" timestamp="1588299906348" />
-    <state width="908" height="135" key="GridCell.Tab.0.bottom" timestamp="1588811745429">
+    <state width="908" height="135" key="GridCell.Tab.0.bottom" timestamp="1588813291482">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1588811745429" />
+    <state width="908" height="135" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1588813291482" />
     <state width="1206" height="376" key="GridCell.Tab.0.bottom/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455986" />
     <state width="1112" height="253" key="GridCell.Tab.0.bottom/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720388" />
     <state width="1114" height="253" key="GridCell.Tab.0.bottom/67.27.1667.1243@67.27.1667.1243" timestamp="1585531688009" />
@@ -661,10 +464,10 @@
     <state width="1149" height="234" key="GridCell.Tab.0.bottom/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520321" />
     <state width="1149" height="253" key="GridCell.Tab.0.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845755" />
     <state width="908" height="177" key="GridCell.Tab.0.bottom/67.27.733.573@67.27.733.573" timestamp="1588478449946" />
-    <state width="908" height="135" key="GridCell.Tab.0.center" timestamp="1588811745427">
+    <state width="908" height="135" key="GridCell.Tab.0.center" timestamp="1588813291465">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1588811745427" />
+    <state width="908" height="135" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1588813291465" />
     <state width="1206" height="376" key="GridCell.Tab.0.center/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455985" />
     <state width="1112" height="253" key="GridCell.Tab.0.center/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720387" />
     <state width="1114" height="253" key="GridCell.Tab.0.center/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687999" />
@@ -673,10 +476,10 @@
     <state width="1149" height="234" key="GridCell.Tab.0.center/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520319" />
     <state width="1149" height="253" key="GridCell.Tab.0.center/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845754" />
     <state width="908" height="177" key="GridCell.Tab.0.center/67.27.733.573@67.27.733.573" timestamp="1588478449945" />
-    <state width="908" height="135" key="GridCell.Tab.0.left" timestamp="1588811745426">
+    <state width="908" height="135" key="GridCell.Tab.0.left" timestamp="1588813291459">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1588811745426" />
+    <state width="908" height="135" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1588813291459" />
     <state width="1206" height="376" key="GridCell.Tab.0.left/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455985" />
     <state width="1112" height="253" key="GridCell.Tab.0.left/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720387" />
     <state width="1114" height="253" key="GridCell.Tab.0.left/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687997" />
@@ -685,10 +488,10 @@
     <state width="1149" height="234" key="GridCell.Tab.0.left/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520317" />
     <state width="1149" height="253" key="GridCell.Tab.0.left/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845753" />
     <state width="908" height="177" key="GridCell.Tab.0.left/67.27.733.573@67.27.733.573" timestamp="1588478449945" />
-    <state width="908" height="135" key="GridCell.Tab.0.right" timestamp="1588811745428">
+    <state width="908" height="135" key="GridCell.Tab.0.right" timestamp="1588813291475">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1588811745428" />
+    <state width="908" height="135" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1588813291475" />
     <state width="1206" height="376" key="GridCell.Tab.0.right/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455986" />
     <state width="1112" height="253" key="GridCell.Tab.0.right/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720388" />
     <state width="1114" height="253" key="GridCell.Tab.0.right/67.27.1667.1243@67.27.1667.1243" timestamp="1585531688008" />
@@ -697,10 +500,10 @@
     <state width="1149" height="234" key="GridCell.Tab.0.right/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520320" />
     <state width="1149" height="253" key="GridCell.Tab.0.right/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845754" />
     <state width="908" height="177" key="GridCell.Tab.0.right/67.27.733.573@67.27.733.573" timestamp="1588478449946" />
-    <state width="908" height="135" key="GridCell.Tab.1.bottom" timestamp="1588811745430">
+    <state width="908" height="135" key="GridCell.Tab.1.bottom" timestamp="1588813291007">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.1.bottom/67.27.1373.873@67.27.1373.873" timestamp="1588811745430" />
+    <state width="908" height="135" key="GridCell.Tab.1.bottom/67.27.1373.873@67.27.1373.873" timestamp="1588813291007" />
     <state width="1206" height="376" key="GridCell.Tab.1.bottom/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455988" />
     <state width="1112" height="253" key="GridCell.Tab.1.bottom/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720390" />
     <state width="1114" height="253" key="GridCell.Tab.1.bottom/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
@@ -709,10 +512,10 @@
     <state width="1149" height="234" key="GridCell.Tab.1.bottom/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520148" />
     <state width="1149" height="253" key="GridCell.Tab.1.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845757" />
     <state width="908" height="177" key="GridCell.Tab.1.bottom/67.27.733.573@67.27.733.573" timestamp="1588478449951" />
-    <state width="908" height="135" key="GridCell.Tab.1.center" timestamp="1588811745429">
+    <state width="908" height="135" key="GridCell.Tab.1.center" timestamp="1588813291007">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.1.center/67.27.1373.873@67.27.1373.873" timestamp="1588811745429" />
+    <state width="908" height="135" key="GridCell.Tab.1.center/67.27.1373.873@67.27.1373.873" timestamp="1588813291007" />
     <state width="1206" height="376" key="GridCell.Tab.1.center/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455987" />
     <state width="1112" height="253" key="GridCell.Tab.1.center/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720389" />
     <state width="1114" height="253" key="GridCell.Tab.1.center/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
@@ -721,10 +524,10 @@
     <state width="1149" height="234" key="GridCell.Tab.1.center/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520147" />
     <state width="1149" height="253" key="GridCell.Tab.1.center/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845755" />
     <state width="908" height="177" key="GridCell.Tab.1.center/67.27.733.573@67.27.733.573" timestamp="1588478449950" />
-    <state width="908" height="135" key="GridCell.Tab.1.left" timestamp="1588811745429">
+    <state width="908" height="135" key="GridCell.Tab.1.left" timestamp="1588813291006">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.1.left/67.27.1373.873@67.27.1373.873" timestamp="1588811745429" />
+    <state width="908" height="135" key="GridCell.Tab.1.left/67.27.1373.873@67.27.1373.873" timestamp="1588813291006" />
     <state width="1206" height="376" key="GridCell.Tab.1.left/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455987" />
     <state width="1112" height="253" key="GridCell.Tab.1.left/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720388" />
     <state width="1114" height="253" key="GridCell.Tab.1.left/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
@@ -733,10 +536,10 @@
     <state width="1149" height="234" key="GridCell.Tab.1.left/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520147" />
     <state width="1149" height="253" key="GridCell.Tab.1.left/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845755" />
     <state width="908" height="177" key="GridCell.Tab.1.left/67.27.733.573@67.27.733.573" timestamp="1588478449949" />
-    <state width="908" height="135" key="GridCell.Tab.1.right" timestamp="1588811745430">
+    <state width="908" height="135" key="GridCell.Tab.1.right" timestamp="1588813291007">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.1.right/67.27.1373.873@67.27.1373.873" timestamp="1588811745430" />
+    <state width="908" height="135" key="GridCell.Tab.1.right/67.27.1373.873@67.27.1373.873" timestamp="1588813291007" />
     <state width="1206" height="376" key="GridCell.Tab.1.right/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455988" />
     <state width="1112" height="253" key="GridCell.Tab.1.right/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720389" />
     <state width="1114" height="253" key="GridCell.Tab.1.right/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687584" />
@@ -745,10 +548,10 @@
     <state width="1149" height="234" key="GridCell.Tab.1.right/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520147" />
     <state width="1149" height="253" key="GridCell.Tab.1.right/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845756" />
     <state width="908" height="177" key="GridCell.Tab.1.right/67.27.733.573@67.27.733.573" timestamp="1588478449950" />
-    <state width="908" height="135" key="GridCell.Tab.2.bottom" timestamp="1588811745431">
+    <state width="908" height="135" key="GridCell.Tab.2.bottom" timestamp="1588813291009">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.2.bottom/67.27.1373.873@67.27.1373.873" timestamp="1588811745431" />
+    <state width="908" height="135" key="GridCell.Tab.2.bottom/67.27.1373.873@67.27.1373.873" timestamp="1588813291009" />
     <state width="1206" height="376" key="GridCell.Tab.2.bottom/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455990" />
     <state width="1112" height="253" key="GridCell.Tab.2.bottom/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720391" />
     <state width="1114" height="253" key="GridCell.Tab.2.bottom/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687586" />
@@ -757,10 +560,10 @@
     <state width="1149" height="234" key="GridCell.Tab.2.bottom/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520149" />
     <state width="1149" height="253" key="GridCell.Tab.2.bottom/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845759" />
     <state width="908" height="177" key="GridCell.Tab.2.bottom/67.27.733.573@67.27.733.573" timestamp="1588478449949" />
-    <state width="908" height="135" key="GridCell.Tab.2.center" timestamp="1588811745431">
+    <state width="908" height="135" key="GridCell.Tab.2.center" timestamp="1588813291008">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.2.center/67.27.1373.873@67.27.1373.873" timestamp="1588811745431" />
+    <state width="908" height="135" key="GridCell.Tab.2.center/67.27.1373.873@67.27.1373.873" timestamp="1588813291008" />
     <state width="1206" height="376" key="GridCell.Tab.2.center/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455989" />
     <state width="1112" height="253" key="GridCell.Tab.2.center/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720390" />
     <state width="1114" height="253" key="GridCell.Tab.2.center/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687585" />
@@ -769,10 +572,10 @@
     <state width="1149" height="234" key="GridCell.Tab.2.center/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520148" />
     <state width="1149" height="253" key="GridCell.Tab.2.center/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845758" />
     <state width="908" height="177" key="GridCell.Tab.2.center/67.27.733.573@67.27.733.573" timestamp="1588478449947" />
-    <state width="908" height="135" key="GridCell.Tab.2.left" timestamp="1588811745430">
+    <state width="908" height="135" key="GridCell.Tab.2.left" timestamp="1588813291008">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.2.left/67.27.1373.873@67.27.1373.873" timestamp="1588811745430" />
+    <state width="908" height="135" key="GridCell.Tab.2.left/67.27.1373.873@67.27.1373.873" timestamp="1588813291008" />
     <state width="1206" height="376" key="GridCell.Tab.2.left/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455988" />
     <state width="1112" height="253" key="GridCell.Tab.2.left/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720390" />
     <state width="1114" height="253" key="GridCell.Tab.2.left/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687585" />
@@ -781,10 +584,10 @@
     <state width="1149" height="234" key="GridCell.Tab.2.left/67.27.3367.1250@67.27.3367.1250" timestamp="1588447520148" />
     <state width="1149" height="253" key="GridCell.Tab.2.left/67.27.3371.1261@67.27.3371.1261" timestamp="1588299845757" />
     <state width="908" height="177" key="GridCell.Tab.2.left/67.27.733.573@67.27.733.573" timestamp="1588478449947" />
-    <state width="908" height="135" key="GridCell.Tab.2.right" timestamp="1588811745431">
+    <state width="908" height="135" key="GridCell.Tab.2.right" timestamp="1588813291009">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state width="908" height="135" key="GridCell.Tab.2.right/67.27.1373.873@67.27.1373.873" timestamp="1588811745431" />
+    <state width="908" height="135" key="GridCell.Tab.2.right/67.27.1373.873@67.27.1373.873" timestamp="1588813291009" />
     <state width="1206" height="376" key="GridCell.Tab.2.right/67.27.1646.1245@67.27.1646.1245" timestamp="1583893455989" />
     <state width="1112" height="253" key="GridCell.Tab.2.right/67.27.1665.1243@67.27.1665.1243" timestamp="1585532720391" />
     <state width="1114" height="253" key="GridCell.Tab.2.right/67.27.1667.1243@67.27.1667.1243" timestamp="1585531687585" />
