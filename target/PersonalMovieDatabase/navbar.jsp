@@ -7,22 +7,30 @@
     String tagText = null;
     String addUser = null;
     String addUserTxt = null;
+    String myMovies = null;
+    String myMoviesText = null;
 
     if (request.getRemoteUser() == null) {
-        login = "login.jsp";
+        login = "loginLanding.jsp";
         tagText = "Login";
         addUser = "addUser.jsp";
         addUserTxt = "Sign Up";
+        myMovies = "#";
+        myMoviesText = "";
 
     } else {
         login = "#";
         tagText = "";
+        myMovies = "myMovies.jsp";
+        myMoviesText = "My Movies";
     }
 
     request.setAttribute("login", login);
     request.setAttribute("text", tagText);
     request.setAttribute("addUser", addUser);
     request.setAttribute("addUserTxt", addUserTxt);
+    request.setAttribute("myMovies", myMovies);
+    request.setAttribute("myMoviesText", myMoviesText);
 
 %>
 
@@ -33,11 +41,11 @@
         <p class="mb-0">Rate and Track your favorite Movies and TV Shows!</p>
     </div>
     <div class="col-md-12 col-lg-6 text-left text-lg-right">
+        <a href="index.jsp">Home</a>
         <a href="${login}">${text}</a>
         <a href="${addUser}">${addUserTxt}</a>
         <a href="search.jsp">Search for Movies</a>
-        <a href="myMovies.jsp">My Movies</a>
-        <a href="#">About</a>
+        <a href="${myMovies}">${myMoviesText}</a>
         <a href="logout.jsp">Logout</a>
     </div>
 </div>

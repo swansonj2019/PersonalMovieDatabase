@@ -24,6 +24,16 @@
     </auth-constraint>
   </security-constraint>
 
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>login</web-resource-name>
+      <url-pattern>/loginLanding.jsp</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+  </security-constraint>
+
   <!-- Protect everything in the admin directory -->
   <security-constraint>
     <web-resource-collection>

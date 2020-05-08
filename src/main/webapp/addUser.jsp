@@ -70,7 +70,7 @@
                     <input type="text" class="form-control" id="username" name="username" aria-describedby="usernameHelp" placeholder="Username">
                     <br/>
                     <input type="password" class="form-control" id="password" name="password" aria-describedby="passwordHelp" placeholder="Password">
-                    <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
+                    <button type="submit" name="submit" value="search" class="btn btn-primary">Add</button>
 
                 </form>
             </div>
