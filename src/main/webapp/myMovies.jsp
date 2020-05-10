@@ -31,7 +31,7 @@
                     <c:forEach items="${movies}" var="movies">
 
                         <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-                            <a href="work-single.html" class="item-wrap fancybox">
+                            <a href="singleMovie.jsp?id=${movies.tmdbId}" class="item-wrap fancybox">
                                 <div class="work-info">
                                     <h3>${movies.title}</h3>
                                 </div>
