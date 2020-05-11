@@ -44,7 +44,7 @@ public class newUser extends HttpServlet {
         } else {
             req.setAttribute("users", userDao.getAllUsers());
         }
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/userAdded.jsp");
         dispatcher.forward(req, resp);
     }
 }

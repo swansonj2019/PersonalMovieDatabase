@@ -9,6 +9,8 @@
     String addUserTxt = null;
     String myMovies = null;
     String myMoviesText = null;
+    String logout = null;
+    String logoutText = null;
 
     if (request.getRemoteUser() == null) {
         login = "loginLanding.jsp";
@@ -17,12 +19,16 @@
         addUserTxt = "Sign Up";
         myMovies = "#";
         myMoviesText = "";
+        logout = "#";
+        logoutText = "";
 
     } else {
         login = "#";
         tagText = "";
         myMovies = "myMovies.jsp";
         myMoviesText = "My Movies";
+        logout = "logout.jsp";
+        logoutText = "Logout";
     }
 
     request.setAttribute("login", login);
@@ -31,6 +37,8 @@
     request.setAttribute("addUserTxt", addUserTxt);
     request.setAttribute("myMovies", myMovies);
     request.setAttribute("myMoviesText", myMoviesText);
+    request.setAttribute("logout", logout);
+    request.setAttribute("logoutText", logoutText);
 
 %>
 
@@ -46,6 +54,6 @@
         <a href="${addUser}">${addUserTxt}</a>
         <a href="search.jsp">Search for Movies</a>
         <a href="${myMovies}">${myMoviesText}</a>
-        <a href="logout.jsp">Logout</a>
+        <a href="${logout}">${logoutText}</a>
     </div>
 </div>
