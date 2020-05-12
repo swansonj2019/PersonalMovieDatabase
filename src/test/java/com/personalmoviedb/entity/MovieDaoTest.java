@@ -38,11 +38,11 @@ class MovieDaoTest {
 //        assertEquals("181808", returnedMovie.getTmdbId());
 //    }
 ////
-////    @Test
-////    void delete() {
-////        dao.delete(dao.getById(1));
-////        assertNull(dao.getById(1));
-////    }
+//    @Test
+//    void delete() {
+//        dao.delete(dao.getById(1));
+//        assertNull(dao.getById(1));
+//    }
 ////
 //    @Test
 //    void saveOrUpdate() {

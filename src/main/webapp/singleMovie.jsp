@@ -22,6 +22,10 @@
 
             MovieDetails details = dao.getDetails(request.getParameter("id"));
 
+            String id = request.getParameter("id");
+            String userID = request.getParameter("userId");
+            String title = request.getParameter("title");
+
             sess.setAttribute("details", details);
 
             MovieDao movieDao = new MovieDao();
@@ -30,6 +34,9 @@
             movies = movieDao.getByPropertyEqual("tmdbId", request.getParameter("id"));
 
             sess.setAttribute("movies", movies);
+            sess.setAttribute("id", id);
+            sess.setAttribute("title", title);
+            sess.setAttribute("userId", userID);
         %>
 
     <c:import url="navbarCustom.jsp" />
@@ -44,8 +51,6 @@
                     <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
                         <div class="sticky-content">
                             <h3 class="h3">${details.getTagline()}</h3>
-                            <h4 class="h4">Release Date: ${details.getReleaseDate()}</h4>
-
                                 <c:forEach items="${movies}" var="movies">
                                 <p>Your Rating: ${movies.userRating}</p>
                                 <br/>
@@ -55,7 +60,7 @@
                                     <a class="btn btn-outline-warning" href="#" role="button">Edit Review?</a>
                                     <br/>
                                     </div>
-                                    <a class="btn btn-outline-danger" href="#" role="button">Delete this Movie?</a>
+                                    <a class="btn btn-outline-danger" href="deleteMovie.jsp?id=${movies.id}&title=${movies.title}" role="button">Delete this Movie?</a>
                             </c:forEach>
                         </div>
                     </div>
