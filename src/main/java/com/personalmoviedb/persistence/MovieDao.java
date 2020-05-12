@@ -58,12 +58,12 @@ public class MovieDao {
 //
     /**
      * Gets a movie by id
-     * @param user_id movie id to search by
+     * @param id movie id to search by
      * @return a movie
      */
-    public Movie getById(int user_id) {
+    public Movie getById(int id) {
         Session session = sessionFactory.openSession();
-        Movie movie = session.get(Movie.class, user_id);
+        Movie movie = session.get(Movie.class, id);
         session.close();
         return movie;
     }

@@ -55,17 +55,17 @@ public class RoleDao {
 //        return users;
 //    }
 
-//    /**
-//     * Gets a user by id
-//     * @param id users id to search by
-//     * @return a user
-//     */
-//    public User getById(int id) {
-//        Session session = sessionFactory.openSession();
-//        User user = session.get(User.class, id);
-//        session.close();
-//        return user;
-//    }
+    /**
+     * Gets a user by id
+     * @param id users id to search by
+     * @return a user
+     */
+    public Role getById(int id) {
+        Session session = sessionFactory.openSession();
+        Role role = session.get(Role.class, id);
+        session.close();
+        return role;
+    }
 
 //    /**
 //     * update user
@@ -94,17 +94,17 @@ public class RoleDao {
         return id;
     }
 //
-//    /**
-//     * Delete a user
-//     * @param user User to be deleted
-//     */
-//    public void delete(User user) {
-//        Session session = sessionFactory.openSession();
-//        Transaction transaction = session.beginTransaction();
-//        session.delete(user);
-//        transaction.commit();
-//        session.close();
-//    }
+    /**
+     * Delete a user
+     * @param role Role to be deleted
+     */
+    public void delete(Role role) {
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        session.delete(role);
+        transaction.commit();
+        session.close();
+    }
 
 
 //    /**

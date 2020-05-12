@@ -16,65 +16,67 @@ import static org.junit.Assert.assertNull;
 class MovieDaoTest {
     private final Logger logger = LogManager.getLogger(this.getClass());
     MovieDao dao;
-
-//    @BeforeEach
-//    void setUp() {
-//        dao = new MovieDao();
-//        Database database = Database.getInstance();
-//        database.runSQL("cleandb.sql");
-//    }
 //
-//    @Test
-//    void getAllMovies() {
-//        List<Movie> movies = dao.getAllMovies();
-//        assertEquals(2, movies.size());
-//        logger.info(movies.toString());
-//    }
-//
+    @BeforeEach
+    void setUp() {
+        dao = new MovieDao();
+        Database database = Database.getInstance();
+        //database.runSQL("cleandb.sql");
+    }
+////
+////    @Test
+////    void getAllMovies() {
+////        List<Movie> movies = dao.getAllMovies();
+////        assertEquals(2, movies.size());
+////        logger.info(movies.toString());
+////    }
+//////
 //    @Test
 //    void getByIdSuccess() {
-//        Movie returnedMovie = dao.getById(1);
-//        assertEquals("Spaceballs", returnedMovie.getTitle());
-//        assertEquals("181808", returnedMovie.getTmdbId());
+//        Movie returnedMovie = dao.getById(23);
+//
+//        logger.info(returnedMovie);
+//        //assertEquals("28 Days Later", returnedMovie.getTitle());
+//        //assertEquals("170", returnedMovie.getTmdbId());
 //    }
-////
+//////
 //    @Test
 //    void delete() {
-//        dao.delete(dao.getById(1));
-//        assertNull(dao.getById(1));
+//        dao.delete(dao.getById(23));
+//        assertNull(dao.getById(23));
 //    }
-////
-//    @Test
-//    void saveOrUpdate() {
-//        String newTitle = "Star Wars: This one Kind of Stinks!";
-//        Movie toBeUpdated = dao.getById(1);
-//        toBeUpdated.setTitle(newTitle);
-//        dao.saveOrUpdate(toBeUpdated);
-//        assertEquals(newTitle, toBeUpdated.getTitle());
-//
-//    }
-////
+//////
 ////    @Test
-////    void insert() {
-////        LocalDateTime now = LocalDateTime.now();
-////        Movie movie = new Movie("Star Wars: Return of the Jedi", "222", "This Movie Stinks!",
-////                "2017-12-13", "poster.jpg", null, "Bob",
-////                "0", "Stinky", now);
-////        dao.insert(movie);
-////        Movie insertedMovie = dao.getById(242);
-////        assertEquals("Star Wars: Return of the Jedi", insertedMovie.getTitle());
+////    void saveOrUpdate() {
+////        String newTitle = "Star Wars: This one Kind of Stinks!";
+////        Movie toBeUpdated = dao.getById(1);
+////        toBeUpdated.setTitle(newTitle);
+////        dao.saveOrUpdate(toBeUpdated);
+////        assertEquals(newTitle, toBeUpdated.getTitle());
+////
 ////    }
-////
-//    @Test
-//    void getMoviesByPropertyEqual() {
-//        List<Movie> movies = dao.getByPropertyEqual("username", "Nex");
-//        assertEquals(1, movies.size());
-//    }
-//
+//////
+//////    @Test
+//////    void insert() {
+//////        LocalDateTime now = LocalDateTime.now();
+//////        Movie movie = new Movie("Star Wars: Return of the Jedi", "222", "This Movie Stinks!",
+//////                "2017-12-13", "poster.jpg", null, "Bob",
+//////                "0", "Stinky", now);
+//////        dao.insert(movie);
+//////        Movie insertedMovie = dao.getById(242);
+//////        assertEquals("Star Wars: Return of the Jedi", insertedMovie.getTitle());
+//////    }
+//////
 ////    @Test
-////    void getMoviesByPropertyLike() {
-////        List<Movie> movies = dao.getByPropertyLike("username", "Nex");
+////    void getMoviesByPropertyEqual() {
+////        List<Movie> movies = dao.getByPropertyEqual("username", "Nex");
 ////        assertEquals(1, movies.size());
-////        logger.info(movies);
 ////    }
+////
+//////    @Test
+//////    void getMoviesByPropertyLike() {
+//////        List<Movie> movies = dao.getByPropertyLike("username", "Nex");
+//////        assertEquals(1, movies.size());
+//////        logger.info(movies);
+//////    }
 }

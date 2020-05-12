@@ -27,7 +27,7 @@
         String id = request.getParameter("id");
         String userId = request.getParameter("userId");
 
-        int converted = Integer.parseInt("userId");
+        int converted = Integer.parseInt(id);
 
         sess.setAttribute("title", title);
         sess.setAttribute("converted", converted);

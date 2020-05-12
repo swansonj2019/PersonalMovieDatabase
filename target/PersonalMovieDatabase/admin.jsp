@@ -111,7 +111,7 @@
                     <td>${users.userName}</td>
                     <td>${users.password}</td>
                     <td><a href="editUser.jsp"><i class="las la-user-edit"></i></a></td>
-                    <td><a href="deleteUser.jsp"><i class="las la-user-slash"></i></a></td>
+                    <td><a href="deleteUser.jsp?id=${users.id}"><i class="las la-user-slash"></i></a></td>
                 </tr>
                 </c:forEach>
                     </tbody>

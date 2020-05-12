@@ -1,27 +1,29 @@
-//package com.personalmoviedb.entity;
-//
-//import com.personalmoviedb.persistence.UserDao;
-//import com.personalmoviedb.util.Database;
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
-//import org.junit.jupiter.api.BeforeEach;
-//import org.junit.jupiter.api.Test;
-//import java.util.List;
-//
-//import static org.junit.Assert.assertEquals;
-//import static org.junit.Assert.assertNull;
-//
-//public class userDaoTest {
-//    private final Logger logger = LogManager.getLogger(this.getClass());
-//
-//    UserDao dao;
-//    @BeforeEach
-//    void setUp() {
-//        dao = new UserDao();
-//        Database database = Database.getInstance();
-//        database.runSQL("cleandb.sql");
-//    }
-//
+package com.personalmoviedb.entity;
+import com.personalmoviedb.persistence.UserDao;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import com.personalmoviedb.persistence.UserDao;
+import com.personalmoviedb.util.Database;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+
+public class userDaoTest {
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
+    UserDao dao;
+    @BeforeEach
+    void setUp() {
+        dao = new UserDao();
+        Database database = Database.getInstance();
+        //database.runSQL("cleandb.sql");
+    }
+
 //    @Test
 //    void getByIdSuccess() {
 //        User returnedUser = dao.getById(1);
@@ -67,4 +69,4 @@
 //        List<User> users = dao.getByPropertyEqual("userName", "Wade");
 //        assertEquals(1, users.size());
 //    }
-//}
+}
