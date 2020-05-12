@@ -35,8 +35,7 @@
 
         <div class="card mx-auto" style="width: 35rem;">
             <br/>
-            <h2 class="text-center">You have successfully deleted</h2>
-            <h2 class="text-center">${title}</h2>
+            <h2 class="text-center">The User was successfully deleted</h2>
             <br/>
             <div class="mx-auto">
                 <img src="img/check.png" height="200" width="200">
